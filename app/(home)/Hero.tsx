@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Button from "../(components)/Button";
 import Container from "../(layout)/Container";
 
@@ -19,22 +20,20 @@ const Hero = () => {
           </div>
         </div>
       </Container>
-      {/* <img
+      <img
         className="h-[500px] md:h-[750px] w-full object-cover"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
         height={750}
-      /> */}
-      <div className="h-[500px] md:h-[750px] w-full object-cover"></div>
-      {/* <img
+      />
+      <img
         className="absolute bottom-0 w-full object-cover max:hidden"
         src="http://dev2.growthbydesign.org/wp-content/uploads/Waves.png"
         alt=""
         width={1920}
         height={200}
-      /> */}
-      <div className="absolute bottom-0 w-full object-cover max:hidden"></div>
+      />
     </section>
   );
 };

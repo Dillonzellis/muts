@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 type CardProps = {
   icon: string;
   title: string;
@@ -14,14 +15,13 @@ const Card = ({
   return (
     <div className="inline-flex h-[316px] rounded-3xl border border-slate-100 bg-white p-4 text-black shadow-xl">
       <div className="flex flex-col items-center justify-center gap-4">
-        {/* <img
+        <img
           width={70}
           height={70}
           src={icon}
           alt=""
           className="h-[70px] w-[70px] object-contain"
-        /> */}
-        <div className="h-[70px] w-[70px] object-contain">temp</div>
+        />
         <div className="text-xl font-bold capitalize text-brandingBlue-400">
           {title}
         </div>

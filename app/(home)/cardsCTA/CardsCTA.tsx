@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Container from "@/app/(layout)/Container";
 import CardDeck from "./CardDeck";
 
@@ -11,14 +12,13 @@ const CardsCTA = () => {
             all of our members
           </h2>
         </Container>
-        {/* <img
+        <img
           src="http://dev2.growthbydesign.org/wp-content/uploads/home-cta.jpg"
           alt="worker"
           className="lg:px-22 mx-auto px-4 sm:px-6"
           height={870}
           width={1700}
-        /> */}
-        <div className="lg:px-22 mx-auto px-4 sm:px-6 w-[1700px] h-[870]"></div>
+        />
       </div>
       <CardDeck />
     </section>
