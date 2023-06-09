@@ -5,11 +5,11 @@ import ServicesCTA from "./(home)/services/ServicesCTA";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
       <CardsCTA />
       <JoinCTA />
       <ServicesCTA />
-    </div>
+    </main>
   );
 }
