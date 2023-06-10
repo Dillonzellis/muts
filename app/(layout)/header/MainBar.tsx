@@ -16,9 +16,9 @@ const MainBar = () => {
   };
 
   return (
-    <div className="bg-white py-2">
+    <div className="bg-white">
       <Container>
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center justify-between gap-4 py-2">
           <a href="#">
             <img
               src="http://dev2.growthbydesign.org/wp-content/uploads/Logo.png"
@@ -39,9 +39,17 @@ const MainBar = () => {
         </div>
       </Container>
       <nav>
-        <ul className="bg-brandingBlue-400 text-white py-4 text-center my-2 hidden md:hidden">
+        <ul
+          className={`bg-brandingBlue-400 text-white py-4 text-center justify-center gap-24 md:flex ${
+            !toggle ? "hidden" : ""
+          }`}>
           {navItems.map((item, idx) => (
-            <NavLink key={idx} link={item.link} text={item.text} />
+            <NavLink
+              key={idx}
+              link={item.link}
+              text={item.text}
+              className={item.className ? item.className : ""}
+            />
           ))}
         </ul>
       </nav>

@@ -7,7 +7,6 @@ const Header = () => {
     <header>
       <TopBar />
       <MainBar />
-      <Nav />
     </header>
   );
 };
