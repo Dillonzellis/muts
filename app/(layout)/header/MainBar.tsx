@@ -2,7 +2,7 @@
 "use client";
 
 import Button from "@/app/(components)/Button";
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import Container from "../Container";
 import NavLink from "./nav/NavLink";
@@ -27,10 +27,18 @@ const MainBar = () => {
               height={65}
             />
           </a>
-          <Bars3Icon
-            onClick={handleNavToggle}
-            className="h-10 w-10 text-brandingBlue-400 md:hidden"
-          />
+          {toggle ? (
+            <XMarkIcon
+              onClick={handleNavToggle}
+              className="md:hidden h-10 w-10 text-brandingBlue-400"
+            />
+          ) : (
+            <Bars3Icon
+              onClick={handleNavToggle}
+              className="h-10 w-10 text-brandingBlue-400 md:hidden"
+            />
+          )}
+
           <Button
             btnText="LOGIN"
             link="#"
