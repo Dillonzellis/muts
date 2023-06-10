@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </Container>
       <img
-        className="h-[500px] md:h-[750px] w-full object-cover"
+        className="h-[500px] md:h-[750px] w-full object-cover border-t-8 border-brandingBlue-400 md:border-t-0"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}

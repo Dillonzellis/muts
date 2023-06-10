@@ -38,9 +38,9 @@ const MainBar = () => {
           />
         </div>
       </Container>
-      <nav>
+      <nav className="relative">
         <ul
-          className={`bg-brandingBlue-400 text-white py-4 text-center justify-center gap-24 md:flex ${
+          className={`bg-brandingBlue-400 text-white py-4 w-full z-50 text-center justify-center gap-24 md:flex absolute w-f ${
             !toggle ? "hidden" : ""
           }`}>
           {navItems.map((item, idx) => (
