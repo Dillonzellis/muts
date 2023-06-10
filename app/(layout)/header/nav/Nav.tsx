@@ -4,7 +4,7 @@ import { navItems } from "./data";
 
 const Nav = () => {
   return (
-    <nav className="bg-brandingBlue-400 py-1 md:py-4">
+    <nav className="bg-brandingBlue-400 md:py-4">
       <Container>
         <ul className="hidden justify-center gap-24 md:flex">
           {navItems.map((link, idx) => {
