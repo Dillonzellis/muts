@@ -12,7 +12,7 @@ export const navItems: NavItem[] = [
   },
   {
     text: "accounts",
-    link: "/accounts",
+    link: "../accounts",
   },
   {
     text: "borrow",

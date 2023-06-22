@@ -11,3 +11,14 @@
   padding: unset;
   line-height: unset;
 } */
+
+.inner-hero-image-container::before {
+  content: "";
+  position: absolute;
+  width: 60%; /* Adjust this value to change the size of the blue box */
+  height: 60%; /* Adjust this value to change the size of the blue box */
+  background: #005595;
+  z-index: 1;
+  top: 50%; /* Adjust this value to change the position of the blue box */
+  left: -10%; /* Adjust this value to change the position of the blue box */
+}

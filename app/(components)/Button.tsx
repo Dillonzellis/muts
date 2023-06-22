@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button = ({ btnText, link, className = "" }: ButtonProps) => {
   return (
     <div
-      className={`${className} inline-flex cursor-pointer items-center gap-1 bg-brandingGreen-400 px-8 py-3 capitalize text-white`}>
+      className={`${className} self-start inline-flex cursor-pointer items-center gap-1 bg-brandingGreen-400 px-8 py-3 capitalize text-white`}>
       <div>
         <a href={link}>{btnText}</a>
       </div>

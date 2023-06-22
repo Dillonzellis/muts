@@ -19,7 +19,7 @@ const MainBar = () => {
     <div className="bg-white">
       <Container>
         <div className="flex items-center justify-between gap-4 py-2">
-          <a href="#">
+          <a href="/">
             <img
               src="http://dev2.growthbydesign.org/wp-content/uploads/Logo.png"
               alt="logo"
@@ -48,7 +48,7 @@ const MainBar = () => {
       </Container>
       <nav className="relative">
         <ul
-          className={`bg-brandingBlue-400 text-white py-4 w-full z-50 text-center justify-center gap-24 md:flex absolute w-f ${
+          className={`bg-brandingBlue-400 text-white py-4 w-full z-50 text-center justify-center gap-24 md:flex absolute md:relative w-f ${
             !toggle ? "hidden" : ""
           }`}>
           {navItems.map((item, idx) => (
