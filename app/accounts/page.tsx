@@ -1,5 +1,6 @@
 import React from "react";
 import InnerHero from "../(components)/inner-pages/InnerHero";
+import StandardSection from "../(components)/inner-pages/StandardSection";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/inner-hero-placeholder.jpg"
         imgAlt="Placeholder image"
       />
+      <StandardSection />
     </main>
   );
 };

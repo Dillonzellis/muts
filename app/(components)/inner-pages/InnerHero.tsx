@@ -11,6 +11,7 @@ type InnerHeroProps = {
 
 import Container from "@/app/(layout)/Container";
 import ContentSection from "@/app/(layout)/ContentSection";
+import TwoCol from "@/app/(layout)/TwoCol";
 import React from "react";
 import Button from "../Button";
 
@@ -26,7 +27,7 @@ const InnerHero = ({
     <div className="border-t-8 border-brandingBlue-400 md:border-0">
       <Container>
         <ContentSection>
-          <div className="grid md:grid-cols-2 gap-8 md:gap-24 items-center">
+          <TwoCol>
             <div className="flex flex-col gap-4">
               <h1 className="text-2xl md:text-4xl font-bold">
                 {title.map((item, index) => (
@@ -45,7 +46,7 @@ const InnerHero = ({
                 />
               </div>
             </div>
-          </div>
+          </TwoCol>
         </ContentSection>
       </Container>
     </div>
