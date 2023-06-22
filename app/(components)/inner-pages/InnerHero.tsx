@@ -33,13 +33,13 @@ const InnerHero = ({
                   <React.Fragment key={index}>{item}</React.Fragment>
                 ))}
               </h1>
-              <div className="md:text-xl">{desc}</div>
+              <div className="md:text-lg">{desc}</div>
               <Button btnText={btnText} link={btnLink} />
             </div>
             <div>
               <div className="inner-hero-image-container relative">
                 <img
-                  className="block rounded-md shadow-md relative z-10"
+                  className="block rounded-md shadow-lg relative z-10"
                   src={imgSrc}
                   alt={imgAlt}
                 />
