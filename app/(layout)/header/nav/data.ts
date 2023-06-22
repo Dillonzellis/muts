@@ -12,18 +12,22 @@ export const navItems: NavItem[] = [
   },
   {
     text: "accounts",
-    link: "accounts",
+    link: "/accounts",
   },
   {
     text: "borrow",
-    link: "borrow",
+    link: "/borrow",
   },
   {
     text: "solutions",
-    link: "solutions",
+    link: "/solutions",
+  },
+  {
+    text: "rates",
+    link: "/rates",
   },
   {
     text: "about us",
-    link: "about-us",
+    link: "/about-us",
   },
 ];
