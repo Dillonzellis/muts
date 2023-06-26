@@ -1,3 +1,4 @@
+import ContentHeading from "@/app/(components)/inner-pages/ContentHeading";
 import React from "react";
 import Button from "../../(components)/Button";
 import List from "../../(components)/List";
@@ -12,8 +13,8 @@ const RegSavings = () => {
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
       ImgAlt="savings account">
       <div className="flex flex-col gap-3">
-        <h2 className="text-4xl font-bold text-brandingBlue-400">Savings</h2>
-        <h3 className="text-2xl font-semibold">Regular Savings</h3>
+        <h2 className="text-5xl font-bold text-brandingBlue-400">Savings</h2>
+        <ContentHeading title="Regular Savings" />
       </div>
       <div className="flex flex-col gap-2">
         <div>
