@@ -42,6 +42,7 @@ const InnerContent = ({
           {order === "contentFirst" ? (
             <>
               <ContentCol color={color}>{children}</ContentCol>
+              <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} />
             </>
           ) : (
             <>
