@@ -1,3 +1,4 @@
+import ContentBody from "@/app/(components)/inner-pages/ContentBody";
 import ContentHeading from "@/app/(components)/inner-pages/ContentHeading";
 import React from "react";
 import Button from "../../(components)/Button";
@@ -16,10 +17,10 @@ const MMAccounts = () => {
         <ContentHeading title="Money Market Accounts" />
       </div>
       <div className="flex flex-col gap-2">
-        <div>
+        <ContentBody>
           Is it savings? Is it checking? It’s actually both! Earn more money &
           convenience with a money market account.
-        </div>
+        </ContentBody>
         <List liItems={items} />
       </div>
       <div className="flex flex-col gap-2 lg:flex-row">

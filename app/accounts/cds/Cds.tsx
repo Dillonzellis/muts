@@ -1,3 +1,4 @@
+import ContentBody from "@/app/(components)/inner-pages/ContentBody";
 import ContentHeading from "@/app/(components)/inner-pages/ContentHeading";
 import React from "react";
 import Button from "../../(components)/Button";
@@ -16,9 +17,9 @@ const Cds = () => {
         <ContentHeading title="Certificates of Deposit (CDs)" />
       </div>
       <div className="flex flex-col gap-2">
-        <div>
+        <ContentBody>
           Plant the seeds and watch your savings grow! Save faster with a CD.
-        </div>
+        </ContentBody>
         <List liItems={items} />
       </div>
       <div className="flex flex-col gap-2 lg:flex-row">

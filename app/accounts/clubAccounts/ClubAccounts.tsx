@@ -1,3 +1,4 @@
+import ContentBody from "@/app/(components)/inner-pages/ContentBody";
 import ContentHeading from "@/app/(components)/inner-pages/ContentHeading";
 import React from "react";
 import Button from "../../(components)/Button";
@@ -17,11 +18,11 @@ const ClubAccounts = () => {
           <ContentHeading title="Club Accounts " />
         </div>
         <div className="flex flex-col gap-2">
-          <div>
+          <ContentBody>
             Save a little at a time throughout the year for a specific purpose
             so you can reap the benefits of your hard work when the need rolls
             around!
-          </div>
+          </ContentBody>
           <h4 className="text-xl font-semibold">Holiday Club Accounts</h4>
           <div>
             Prepare for the expensive holiday shopping season by saving
