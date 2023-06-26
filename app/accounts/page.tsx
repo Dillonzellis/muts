@@ -1,6 +1,8 @@
 import React from "react";
+import List from "../(components)/List";
 import HeroImg from "../(components)/inner-pages/HeroImg";
 import InnerContent from "../(components)/inner-pages/InnerContent";
+import RegSavings from "./RegSavings";
 
 const page = () => {
   return (
@@ -14,13 +16,7 @@ const page = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/account-hero.jpg"
         imgAlt="accounts"
       />
-      <InnerContent
-        order="imageFirst"
-        variant="white"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
+      <RegSavings />
       <InnerContent
         order="contentFirst"
         variant="blue"

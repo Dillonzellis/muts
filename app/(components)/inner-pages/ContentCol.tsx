@@ -3,7 +3,9 @@ type ContentColProps = {
 };
 
 const ContentCol = ({ children }: ContentColProps) => {
-  return <div>{children}</div>;
+  return (
+    <div className="flex flex-col gap-4 text-brandingGrey-700">{children}</div>
+  );
 };
 
 export default ContentCol;
