@@ -2,24 +2,24 @@
 import Container from "@/app/(layout)/Container";
 import ContentSection from "@/app/(layout)/ContentSection";
 import TwoCol from "@/app/(layout)/TwoCol";
+import ContentCol from "./ContentCol";
 
-const StandardSection = () => {
+type InnerContentProps = {
+  children: React.ReactNode;
+  ImgSrc: string;
+  ImgAlt: string;
+};
+
+const InnerContent = ({ children, ImgSrc, ImgAlt }: InnerContentProps) => {
   return (
     <div>
       <ContentSection>
         <Container>
           <TwoCol>
             <div>
-              <img
-                className="rounded-md shadow-lg"
-                src="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-                alt="savings account"
-              />
+              <img className="rounded-md shadow-lg" src={ImgSrc} alt={ImgAlt} />
             </div>
-            <div>
-              <h2>Savings</h2>
-              <div></div>
-            </div>
+            <ContentCol>{children}</ContentCol>
           </TwoCol>
         </Container>
       </ContentSection>
@@ -27,4 +27,4 @@ const StandardSection = () => {
   );
 };
 
-export default StandardSection;
+export default InnerContent;

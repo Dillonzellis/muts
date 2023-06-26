@@ -1,7 +1,6 @@
 import React from "react";
 import HeroImg from "../(components)/inner-pages/HeroImg";
-import InnerHero from "../(components)/inner-pages/InnerHero";
-import StandardSection from "../(components)/inner-pages/StandardSection";
+import InnerContent from "../(components)/inner-pages/InnerContent";
 
 const page = () => {
   return (
@@ -15,6 +14,11 @@ const page = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/account-hero.jpg"
         imgAlt="accounts"
       />
+      <InnerContent
+        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
+        ImgAlt="savings account">
+        <h1>yes</h1>
+      </InnerContent>
     </main>
   );
 };
