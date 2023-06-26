@@ -2,6 +2,7 @@
 import Container from "@/app/(layout)/Container";
 import TwoCol from "@/app/(layout)/TwoCol";
 import ContentCol from "./ContentCol";
+import ContentImg from "./ContentImg";
 
 type BgColorVariant = "white" | "blue" | "green" | "grey";
 type OrderVariant = "imageFirst" | "contentFirst";
@@ -41,23 +42,10 @@ const InnerContent = ({
           {order === "contentFirst" ? (
             <>
               <ContentCol color={color}>{children}</ContentCol>
-              <div>
-                <img
-                  className="rounded-md shadow-lg"
-                  src={ImgSrc}
-                  alt={ImgAlt}
-                />
-              </div>
             </>
           ) : (
             <>
-              <div>
-                <img
-                  className="rounded-md shadow-lg"
-                  src={ImgSrc}
-                  alt={ImgAlt}
-                />
-              </div>
+              <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} />
               <ContentCol>{children}</ContentCol>
             </>
           )}
