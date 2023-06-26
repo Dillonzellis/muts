@@ -2,6 +2,7 @@ import React from "react";
 import List from "../(components)/List";
 import HeroImg from "../(components)/inner-pages/HeroImg";
 import InnerContent from "../(components)/inner-pages/InnerContent";
+import ClubAccounts from "./clubAccounts/ClubAccounts";
 import MMAccounts from "./moneyAcounts/MMAccounts";
 import RegSavings from "./regSavings/RegSavings";
 
@@ -19,6 +20,7 @@ const page = () => {
       />
       <RegSavings />
       <MMAccounts />
+      <ClubAccounts />
     </main>
   );
 };
