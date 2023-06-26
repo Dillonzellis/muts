@@ -1,12 +1,12 @@
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
-interface ButtonProps {
+type ButtonProps = {
   btnText: string;
   link: string;
-  variant?: "green" | "white";
+  variant?: "light";
   className?: string;
   arrow?: boolean;
-}
+};
 
 const Button = ({
   btnText,
@@ -15,11 +15,18 @@ const Button = ({
   arrow,
   variant,
 }: ButtonProps) => {
+  const bgColor =
+    variant === "light"
+      ? "bg-white text-brandingBlue-400"
+      : "bg-brandingGreen-400 text-white";
+
   return (
     <div
-      className={`${className} self-start inline-flex cursor-pointer items-center gap-1 bg-brandingGreen-400 px-8 py-3 capitalize text-white`}>
+      className={`${className} self-start inline-flex cursor-pointer items-center gap-1 px-8 py-3 capitalize ${bgColor}`}>
       <div>
-        <a href={link}>{btnText}</a>
+        <a className="font-semibold" href={link}>
+          {btnText}
+        </a>
       </div>
       {arrow && (
         <div>

@@ -23,8 +23,8 @@ const Cds = () => {
         <List liItems={items} />
       </div>
       <div className="flex flex-col gap-2 lg:flex-row">
-        <Button btnText="Open an Account" link="#" />
-        <Button btnText="calculate savings" link="#" />
+        <Button btnText="Open an Account" link="#" variant="light" />
+        <Button btnText="calculate savings" link="#" variant="light" />
       </div>
     </InnerContent>
   );
