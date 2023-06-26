@@ -23,12 +23,16 @@ const InnerContent = ({
 }: InnerContentProps) => {
   const bgColorClassMap: Record<BgColorVariant, string> = {
     white: "bg-white",
-    blue: "content-bg-blue",
+    blue: "content-bg-blue text-white",
     green: "content-bg-green",
     grey: "bg-brandingGrey-700",
   };
 
   const bgClass = bgColorClassMap[variant];
+  const color =
+    variant === "blue" || variant === "green" || variant === "grey"
+      ? "text-white"
+      : "text-brandingGrey-700";
 
   return (
     <section className={`py-8 lg:py-16 ${bgClass}`}>
@@ -36,7 +40,7 @@ const InnerContent = ({
         <TwoCol>
           {order === "contentFirst" ? (
             <>
-              <ContentCol>{children}</ContentCol>
+              <ContentCol color={color}>{children}</ContentCol>
               <div>
                 <img
                   className="rounded-md shadow-lg"

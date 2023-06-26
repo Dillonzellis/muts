@@ -2,7 +2,8 @@ import React from "react";
 import List from "../(components)/List";
 import HeroImg from "../(components)/inner-pages/HeroImg";
 import InnerContent from "../(components)/inner-pages/InnerContent";
-import RegSavings from "./RegSavings";
+import MMAccounts from "./moneyAcounts/MMAccounts";
+import RegSavings from "./regSavings/RegSavings";
 
 const page = () => {
   return (
@@ -17,48 +18,7 @@ const page = () => {
         imgAlt="accounts"
       />
       <RegSavings />
-      <InnerContent
-        order="contentFirst"
-        variant="blue"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
-      <InnerContent
-        order="imageFirst"
-        variant="white"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
-      <InnerContent
-        order="contentFirst"
-        variant="green"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
-      <InnerContent
-        order="imageFirst"
-        variant="white"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
-      <InnerContent
-        order="contentFirst"
-        variant="grey"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
-      <InnerContent
-        order="imageFirst"
-        variant="white"
-        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-        ImgAlt="savings account">
-        <h1>yes</h1>
-      </InnerContent>
+      <MMAccounts />
     </main>
   );
 };
