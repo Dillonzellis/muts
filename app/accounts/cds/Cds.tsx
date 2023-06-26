@@ -5,22 +5,19 @@ import List from "../../(components)/List";
 import InnerContent from "../../(components)/inner-pages/InnerContent";
 import items from "./items";
 
-const RegSavings = () => {
+const Cds = () => {
   return (
     <InnerContent
-      order="imageFirst"
-      variant="white"
+      order="contentFirst"
+      variant="green"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
       ImgAlt="savings account">
       <div className="flex flex-col gap-3">
-        {/* <h2 className="text-5xl font-bold text-brandingBlue-400">Savings</h2> */}
-        <ContentHeading title="Regular Savings" />
+        <ContentHeading title="Certificates of Deposit (CDs)" />
       </div>
       <div className="flex flex-col gap-2">
         <div>
-          Whether saving for a specific purchase or simply stashing more away
-          for a rainy day, our dividend-earning savings accounts have you
-          covered!
+          Plant the seeds and watch your savings grow! Save faster with a CD.
         </div>
         <List liItems={items} />
       </div>
@@ -32,4 +29,4 @@ const RegSavings = () => {
   );
 };
 
-export default RegSavings;
+export default Cds;

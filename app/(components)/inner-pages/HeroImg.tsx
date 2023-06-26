@@ -10,8 +10,8 @@ type HeroImgProps = {
   desc2?: string;
   imgSrc: string;
   imgAlt: string;
-  btnText: string;
-  btnLink: string;
+  btnText?: string;
+  btnLink?: string;
 };
 
 const HeroImg = ({
@@ -31,8 +31,8 @@ const HeroImg = ({
             {title}
           </div>
           <div className="text-lg lg:text-2xl">{desc}</div>
-          <div className="lg:text-lg italic pb-4 lg:pb-8">{desc2}</div>
-          <Button btnText={btnText} link={btnLink} />
+          <div className="lg:text-lg italic">{desc2}</div>
+          {/* <Button btnText={btnText} link={btnLink} /> */}
         </div>
       </Container>
       <div className="relative bg-brandingGrey-700">
