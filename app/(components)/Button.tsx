@@ -4,18 +4,21 @@ interface ButtonProps {
   btnText: string;
   link: string;
   className?: string;
+  arrow?: boolean;
 }
 
-const Button = ({ btnText, link, className = "" }: ButtonProps) => {
+const Button = ({ btnText, link, className = "", arrow }: ButtonProps) => {
   return (
     <div
       className={`${className} self-start inline-flex cursor-pointer items-center gap-1 bg-brandingGreen-400 px-8 py-3 capitalize text-white`}>
       <div>
         <a href={link}>{btnText}</a>
       </div>
-      <div>
-        <ArrowRightIcon className="h-5 w-5" />
-      </div>
+      {arrow && (
+        <div>
+          <ArrowRightIcon className="h-5 w-5" />
+        </div>
+      )}
     </div>
   );
 };

@@ -41,7 +41,10 @@ const RegSavings = () => {
         </div>
         <List liItems={items} />
       </div>
-      <Button btnText="Open an Account" link="#" />
+      <div className="flex flex-col gap-2 lg:flex-row">
+        <Button btnText="Open an Account" link="#" />
+        <Button btnText="calculate savings" link="#" />
+      </div>
     </InnerContent>
   );
 };

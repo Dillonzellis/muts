@@ -4,7 +4,7 @@ type TwoColProps = {
 
 const TwoCol = ({ children }: TwoColProps) => {
   return (
-    <div className="grid md:grid-cols-2 gap-8 md:gap-24 items-center">
+    <div className="grid lg:grid-cols-2 gap-8 md:gap-24 items-center">
       {children}
     </div>
   );
