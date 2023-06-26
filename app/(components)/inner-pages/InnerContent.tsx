@@ -3,7 +3,7 @@ import Container from "@/app/(layout)/Container";
 import TwoCol from "@/app/(layout)/TwoCol";
 import ContentCol from "./ContentCol";
 
-type BgColorVariant = "white" | "blue" | "green";
+type BgColorVariant = "white" | "blue" | "green" | "grey";
 type OrderVariant = "imageFirst" | "contentFirst";
 
 type InnerContentProps = {
@@ -23,8 +23,9 @@ const InnerContent = ({
 }: InnerContentProps) => {
   const bgColorClassMap: Record<BgColorVariant, string> = {
     white: "bg-white",
-    blue: "bg-brandingBlue-400",
-    green: "bg-brandingGreen-400",
+    blue: "content-bg-blue",
+    green: "content-bg-green",
+    grey: "bg-brandingGrey-700",
   };
 
   const bgClass = bgColorClassMap[variant];

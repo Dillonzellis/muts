@@ -42,6 +42,27 @@ const page = () => {
         ImgAlt="savings account">
         <h1>yes</h1>
       </InnerContent>
+      <InnerContent
+        order="imageFirst"
+        variant="white"
+        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
+        ImgAlt="savings account">
+        <h1>yes</h1>
+      </InnerContent>
+      <InnerContent
+        order="contentFirst"
+        variant="grey"
+        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
+        ImgAlt="savings account">
+        <h1>yes</h1>
+      </InnerContent>
+      <InnerContent
+        order="imageFirst"
+        variant="white"
+        ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
+        ImgAlt="savings account">
+        <h1>yes</h1>
+      </InnerContent>
     </main>
   );
 };

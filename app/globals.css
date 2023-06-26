@@ -12,13 +12,18 @@
   line-height: unset;
 } */
 
-.inner-hero-image-container::before {
-  content: "";
-  position: absolute;
-  width: 60%; /* Adjust this value to change the size of the blue box */
-  height: 60%; /* Adjust this value to change the size of the blue box */
-  background: #005595;
-  z-index: 1;
-  top: 50%; /* Adjust this value to change the position of the blue box */
-  left: -10%; /* Adjust this value to change the position of the blue box */
+.content-bg-blue {
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    120deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(0, 83, 151, 1) 28%
+  );
+}
+
+.content-bg-green {
+  background: var(
+    --accent-gradient,
+    linear-gradient(77deg, #406c23 0%, #68b237 28%)
+  );
 }
