@@ -1,7 +1,13 @@
+export type SubMenu = {
+  text: string;
+  link: string;
+};
+
 export type NavItem = {
   text: string;
   link: string;
-  className?: string | null;
+  className?: string;
+  subMenu?: SubMenu[];
 };
 
 export const navItems: NavItem[] = [
@@ -13,6 +19,24 @@ export const navItems: NavItem[] = [
   {
     text: "accounts",
     link: "../accounts",
+    subMenu: [
+      {
+        text: "link 1",
+        link: "#",
+      },
+      {
+        text: "link 2",
+        link: "#",
+      },
+      {
+        text: "link 3",
+        link: "#",
+      },
+      {
+        text: "link 4",
+        link: "#",
+      },
+    ],
   },
   {
     text: "borrow",
