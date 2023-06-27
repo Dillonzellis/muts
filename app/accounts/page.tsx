@@ -6,6 +6,7 @@ import Container from "../(layout)/Container";
 import ContentSection from "../(layout)/ContentSection";
 import Cds from "./cds/Cds";
 import ClubAccounts from "./clubAccounts/ClubAccounts";
+import IRAs from "./iras/IRAs";
 import MMAccounts from "./moneyAcounts/MMAccounts";
 import RegSavings from "./regSavings/RegSavings";
 
@@ -34,6 +35,7 @@ const page = () => {
       <MMAccounts />
       <ClubAccounts />
       <Cds />
+      <IRAs />
     </main>
   );
 };

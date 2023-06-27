@@ -27,9 +27,9 @@ const HeroImg = ({
     <div className="relative">
       <Container>
         <div className="absolute top-1/2 z-10 text-white -translate-y-1/2">
-          <div className="uppercase text-3xl lg:text-5xl font-semibold pb-2">
+          <h1 className="uppercase text-3xl lg:text-5xl font-semibold pb-2">
             {title}
-          </div>
+          </h1>
           <div className="text-lg lg:text-2xl">{desc}</div>
           <div className="lg:text-lg italic">{desc2}</div>
           {/* <Button btnText={btnText} link={btnLink} /> */}
@@ -49,15 +49,15 @@ const HeroImg = ({
           fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M0 56.1052L80 76.6362C160 97.1673 320 137.522 480 124.07C640 110.619 800 42.6538 960 15.043C1120 -11.8598 1280 1.59161 1440 22.1227C1600 42.6538 1760 69.5566 1840 83.0079L1920 97.1673V260H1840C1760 260 1600 260 1440 260C1280 260 1120 260 960 260C800 260 640 260 480 260C320 260 160 260 80 260H0V56.1052Z"
             fill="#005397"
             fill-opacity="0.5"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M0 82.7683L80 100.615C160 118.461 320 153.538 480 141.846C640 130.153 800 71.076 960 47.0758C1120 23.6911 1280 35.3835 1440 53.2297C1600 71.076 1760 94.4607 1840 106.153L1920 118.461V260H1840C1760 260 1600 260 1440 260C1280 260 1120 260 960 260C800 260 640 260 480 260C320 260 160 260 80 260H0V82.7683Z"
             fill="url(#paint0_linear_107_273)"
           />

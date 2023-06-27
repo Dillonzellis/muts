@@ -1,5 +1,6 @@
 import ContentBody from "@/app/(components)/inner-pages/ContentBody";
 import ContentHeading from "@/app/(components)/inner-pages/ContentHeading";
+import ContentSecondaryHeading from "@/app/(components)/inner-pages/ContentSecondaryHeading";
 import React from "react";
 import Button from "../../(components)/Button";
 import List from "../../(components)/List";
@@ -23,7 +24,7 @@ const ClubAccounts = () => {
             so you can reap the benefits of your hard work when the need rolls
             around!
           </ContentBody>
-          <h4 className="text-xl font-semibold">Holiday Club Accounts</h4>
+          <ContentSecondaryHeading title="Holiday Club Accounts" />
           <div>
             Prepare for the expensive holiday shopping season by saving
             throughout the year.
@@ -37,7 +38,7 @@ const ClubAccounts = () => {
       </div>
 
       <div className="flex flex-col gap-2">
-        <h4 className="text-xl font-semibold">Vacation Club Accounts</h4>
+        <ContentSecondaryHeading title="Vacation Club Accounts" />
         <div>Stash funds away for a vacation getaway!</div>
         <List liItems={items2} />
       </div>
