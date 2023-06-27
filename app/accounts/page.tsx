@@ -1,13 +1,11 @@
-import React from "react";
-import List from "../(components)/List";
 import HeroImg from "../(components)/inner-pages/HeroImg";
-import InnerContent from "../(components)/inner-pages/InnerContent";
 import Container from "../(layout)/Container";
 import ContentSection from "../(layout)/ContentSection";
 import Cds from "./cds/Cds";
 import ClubAccounts from "./clubAccounts/ClubAccounts";
+import CoverdaleAccounts from "./coverdale/CoverdaleAccounts";
 import IRAs from "./iras/IRAs";
-import MMAccounts from "./moneyAcounts/MMAccounts";
+import MMAccounts from "./moneyAccounts/MMAccounts";
 import RegSavings from "./regSavings/RegSavings";
 
 const page = () => {
@@ -36,6 +34,7 @@ const page = () => {
       <ClubAccounts />
       <Cds />
       <IRAs />
+      <CoverdaleAccounts />
     </main>
   );
 };
