@@ -10,7 +10,7 @@ const Cds = () => {
   return (
     <InnerContent
       order="contentFirst"
-      variant="green"
+      variant="grey"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
       ImgAlt="savings account">
       <div className="flex flex-col gap-3">
@@ -23,8 +23,8 @@ const Cds = () => {
         <List liItems={items} />
       </div>
       <div className="flex flex-col gap-2 lg:flex-row">
-        <Button btnText="Open an Account" link="#" variant="light" />
-        <Button btnText="calculate savings" link="#" variant="light" />
+        <Button btnText="Open an Account" link="#" />
+        <Button btnText="calculate savings" link="#" />
       </div>
     </InnerContent>
   );
