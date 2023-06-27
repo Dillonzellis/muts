@@ -21,19 +21,15 @@ export const navItems: NavItem[] = [
     link: "../accounts",
     subMenu: [
       {
-        text: "link 1",
+        text: "Savings",
         link: "#",
       },
       {
-        text: "link 2",
+        text: "Checking",
         link: "#",
       },
       {
-        text: "link 3",
-        link: "#",
-      },
-      {
-        text: "link 4",
+        text: "Account Resources",
         link: "#",
       },
     ],

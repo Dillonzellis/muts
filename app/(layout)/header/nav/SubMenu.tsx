@@ -15,7 +15,7 @@ const SubMenu = ({ items, onMouseEnter, onMouseLeave }: SubMenuProps) => {
       {items.map((item, index) => (
         <li
           key={index}
-          className="px-4 py-2 text-sm capitalize text-gray-700 hover:bg-blue-500 hover:text-white">
+          className="px-4 py-2 text-sm capitalize text-gray-700 hover:bg-brandingGreen-400 hover:text-white">
           <a href={item.link}>{item.text}</a>
         </li>
       ))}
