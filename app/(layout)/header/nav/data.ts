@@ -1,6 +1,7 @@
 export type SubMenu = {
   text: string;
   link: string;
+  subMenu2?: SubMenu[];
 };
 
 export type NavItem = {
@@ -23,6 +24,16 @@ export const navItems: NavItem[] = [
       {
         text: "Savings",
         link: "#",
+        subMenu2:[
+          {
+            text: "Regular Savings",
+            link: "#",
+          },
+          {
+            text: "fMoney Market Accounts",
+            link: "#",
+          }
+        ]
       },
       {
         text: "Checking",
