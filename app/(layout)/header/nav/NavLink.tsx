@@ -15,7 +15,7 @@ const NavLink = ({ text, link, className, subMenu }: NavItem) => {
   const hideSubMenu = () => {
     timeoutId = setTimeout(() => {
       setIsSubMenuVisible(false);
-    }, 300);
+    }, 150);
   };
 
   const cancelHideSubMenu = () => {
