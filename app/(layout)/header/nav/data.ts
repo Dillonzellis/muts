@@ -38,6 +38,12 @@ export const navItems: NavItem[] = [
       {
         text: "Checking",
         link: "#",
+        subMenu2:[
+            {
+                text: "checking 1",
+                link: "#"
+            },
+        ]
       },
       {
         text: "Account Resources",
@@ -48,6 +54,36 @@ export const navItems: NavItem[] = [
   {
     text: "borrow",
     link: "/borrow",
+    subMenu: [
+      {
+        text: "Savings",
+        link: "#",
+        subMenu2:[
+          {
+            text: "Regular Savings",
+            link: "#",
+          },
+          {
+            text: "fMoney Market Accounts",
+            link: "#",
+          }
+        ]
+      },
+      {
+        text: "Checking",
+        link: "#",
+        subMenu2:[
+            {
+                text: "checking 1",
+                link: "#"
+            },
+        ]
+      },
+      {
+        text: "Account Resources",
+        link: "#",
+      },
+    ],
   },
   {
     text: "solutions",
