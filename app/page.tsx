@@ -10,7 +10,6 @@ export default function Home() {
       <CardsCTA />
       <JoinCTA />
       <ServicesCTA />
-      <div>yea</div>
     </main>
   );
 }
