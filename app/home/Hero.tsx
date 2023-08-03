@@ -1,14 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
-import Button from "../(components)/Button";
-import Container from "../(layout)/Container";
+import Container from "../layouts/Container";
 
 const Hero = () => {
   return (
-    <section className="relative max:mb-8">
+    <div className="hero tw-relative max:tw-mb-8">
       <Container>
-        <div className="absolute top-1/2 -translate-y-[70%]">
-          <div className="flex max-w-prose flex-col gap-8 text-white">
-            <h1 className="text-3xl md:text-6xl font-bold text-white">
+        <div className="tw-absolute tw-top-1/2 tw--translate-y-[70%]">
+          <div className="tw-flex tw-max-w-prose tw-flex-col tw-gap-8 tw-text-white">
+            <h1 className="tw-text-3xl md:tw-text-6xl tw-font-bold tw-text-white">
               We&apos;ll help you pay for that trip to Paradise
             </h1>
             <p>
@@ -16,26 +14,26 @@ const Hero = () => {
               low APR* of 8%, and a maximum 6 months tern. Automatic payment is
               required**. Offer available May 1st - August 31st.
             </p>
-            <Button btnText="apply today" link="#" className="self-start" />
+            {/* <Button btnText="apply today" link="#" className="self-start" /> */}
           </div>
         </div>
       </Container>
       <img
-        className="h-[500px] md:h-[750px] w-full object-cover border-t-8 border-brandingBlue-400 md:border-t-0"
+        className="tw-h-[500px] md:tw-h-[750px] tw-w-full tw-object-cover tw-border-t-8 tw-border-brandingBlue-400 tw-md:border-t-0"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
         height={750}
       />
       <img
-        className="absolute bottom-0 w-full object-cover max:hidden"
+        className="tw-absolute tw-bottom-0 tw-w-full tw-object-cover tw-max:hidden"
         src="http://dev2.growthbydesign.org/wp-content/uploads/Waves.png"
         alt=""
         width={1920}
         height={200}
       />
-    </section>
-  );
-};
+    </div>
+  )
+}
 
 export default Hero;

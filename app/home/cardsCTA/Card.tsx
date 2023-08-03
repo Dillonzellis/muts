@@ -13,20 +13,20 @@ const Card = ({
   cardLink = "#",
 }: CardProps) => {
   return (
-    <div className="inline-flex h-[316px] rounded-3xl border border-slate-100 bg-white p-4 text-black shadow-xl">
-      <div className="flex flex-col items-center justify-center gap-4">
+    <div className="tw-inline-flex tw-h-[316px] tw-rounded-3xl tw-border tw-border-slate-100 tw-bg-white tw-p-4 tw-text-black tw-shadow-xl">
+      <div className="tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-4">
         <img
           width={70}
           height={70}
           src={icon}
           alt=""
-          className="h-[70px] w-[70px] object-contain"
+          className="tw-h-[70px] tw-w-[70px] tw-object-contain"
         />
-        <div className="text-xl font-bold capitalize text-brandingBlue-400">
+        <div className="tw-text-xl tw-font-bold tw-capitalize tw-text-brandingBlue-400">
           {title}
         </div>
-        <p className="text-center">{description}</p>
-        <div className="font-bold text-brandingGreen-400">
+        <p className="tw-text-center">{description}</p>
+        <div className="tw-font-bold tw-text-brandingGreen-400">
           <a href={cardLink}>Learn More</a>
         </div>
       </div>
