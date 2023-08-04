@@ -7,7 +7,7 @@ import { usefulLinks } from "./data";
 
 const Footer = () => {
   return (
-    <footer className="tw-bg-brandingGrey-700 tw-text-white">
+    <div className="footer tw-bg-brandingGrey-700 tw-text-white">
       <Container>
         <div className="tw-py-12 tw-grid md:tw-grid-cols-3 md:tw-gap-4 tw-gap-12">
           <Col>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <CopyFooter />
       </Container>
-    </footer>
+    </div>
   );
 };
 
