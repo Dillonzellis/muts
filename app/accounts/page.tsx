@@ -3,6 +3,7 @@ import RegSavings from "./regSavings/RegSavings";
 import MMAccounts from "./moneyAccounts/MMAccounts";
 import ClubAccounts from "./clubAccounts/ClubAccounts";
 import Cds from "./cds/Cds";
+import IRAs from "./iras/IRAs";
 import Container from "../layouts/Container";
 import ContentSection from "../layouts/ContentSection";
 
@@ -31,7 +32,7 @@ const page = () => {
       <MMAccounts />
       <ClubAccounts />
       <Cds />
-      {/* <IRAs /> */}
+      <IRAs />
       {/* <CoverdaleAccounts /> */}
       <div className="py-4"></div>
     </main>
