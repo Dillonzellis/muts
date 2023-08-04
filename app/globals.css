@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* #left-area ul,
-.entry-content ul,
-.et-l--body ul,
-.et-l--footer ul,
-.et-l--header ul {
-  list-style-type: none;
-  padding: unset;
-  line-height: unset;
-} */
+/* #left-area ul, */
+/* .entry-content ul, */
+/* .et-l--body ul, */
+/* .et-l--footer ul, */
+/* .et-l--header ul { */
+/*   list-style-type: none; */
+/*   padding: unset; */
+/*   line-height: unset; */
+/* } */
 
-.content-bg-blue {
+.tw-content-bg-blue {
   background: rgb(32, 32, 32);
   background: linear-gradient(
     120deg,
@@ -21,7 +21,7 @@
   );
 }
 
-.content-bg-green {
+.tw-content-bg-green {
   background: var(
     --accent-gradient,
     linear-gradient(77deg, #406c23 0%, #68b237 28%)
