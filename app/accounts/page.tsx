@@ -1,4 +1,7 @@
 import HeroImg from "../components/inner-pages/HeroImg";
+import RegSavings from "./regSavings/RegSavings";
+import Container from "../layouts/Container";
+import ContentSection from "../layouts/ContentSection";
 
 const page = () => {
   return (
@@ -10,18 +13,18 @@ const page = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/account-hero.jpg"
         imgAlt="accounts"
       />
-      {/* <Container> */}
-      {/*   <ContentSection> */}
-      {/*     <h2 className="text-5xl font-bold text-brandingBlue-400 pb-2"> */}
-      {/*       Savings */}
-      {/*     </h2> */}
-      {/*     <div className="text-lg lg:text-2xl">Save & Earn Accounts</div> */}
-      {/*     <div className="lg:text-lg italic"> */}
-      {/*       Dividend bearing accounts promote financial growth */}
-      {/*     </div> */}
-      {/*   </ContentSection> */}
-      {/* </Container> */}
-      {/* <RegSavings /> */}
+      <Container>
+        <ContentSection>
+          <h2 className="tw-text-5xl tw-font-bold tw-text-brandingBlue-400 tw-pb-2">
+            Savings
+          </h2>
+          <div className="tw-text-lg lg:tw-text-2xl">Save & Earn Accounts</div>
+          <div className="lg:tw-text-lg tw-italic">
+            Dividend bearing accounts promote financial growth
+          </div>
+        </ContentSection>
+      </Container>
+      <RegSavings />
       {/* <MMAccounts /> */}
       {/* <ClubAccounts /> */}
       {/* <Cds /> */}
