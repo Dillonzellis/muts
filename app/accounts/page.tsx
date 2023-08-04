@@ -1,4 +1,5 @@
 import HeroImg from "../components/inner-pages/HeroImg";
+import CoverdaleAccounts from "./coverdale/CoverDaleAccounts";
 import RegSavings from "./regSavings/RegSavings";
 import MMAccounts from "./moneyAccounts/MMAccounts";
 import ClubAccounts from "./clubAccounts/ClubAccounts";
@@ -33,7 +34,7 @@ const page = () => {
       <ClubAccounts />
       <Cds />
       <IRAs />
-      {/* <CoverdaleAccounts /> */}
+      <CoverdaleAccounts />
       <div className="py-4"></div>
     </main>
   );
