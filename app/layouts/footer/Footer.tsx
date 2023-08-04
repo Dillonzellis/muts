@@ -35,10 +35,10 @@ const Footer = () => {
               <ColLink key={id} href={link.href} linkText={link.linkText} />
             ))}
           </Col>
-          <Col>
-            <div>NCUA Logo</div>
-            <div>Equal house lender logo</div>
-          </Col>
+          <div className="tw-flex tw-flex-col tw-gap-4 tw-items-center">
+            <img src="http://dev2.growthbydesign.org/wp-content/uploads/ncua.webp" width={200} />
+            <img src="http://dev2.growthbydesign.org/wp-content/uploads/equal-housing.webp" width={100} />
+          </div>
         </div>
         <CopyFooter />
       </Container>
