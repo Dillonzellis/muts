@@ -1,4 +1,3 @@
-import MainBar from "./MainBar";
 import TopBar from "./TopBar";
 
 const Header = () => {
