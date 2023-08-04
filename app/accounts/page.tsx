@@ -1,5 +1,6 @@
 import HeroImg from "../components/inner-pages/HeroImg";
 import RegSavings from "./regSavings/RegSavings";
+import MMAccounts from "./moneyAccounts/MMAccounts";
 import Container from "../layouts/Container";
 import ContentSection from "../layouts/ContentSection";
 
@@ -15,7 +16,7 @@ const page = () => {
       />
       <Container>
         <ContentSection>
-          <h2 className="tw-text-5xl tw-font-bold tw-text-brandingBlue-400 tw-pb-2">
+          <h2 className="md:tw-text-5xl tw-text-3xl tw-font-bold tw-text-brandingBlue-400 tw-pb-2">
             Savings
           </h2>
           <div className="tw-text-lg lg:tw-text-2xl">Save & Earn Accounts</div>
@@ -25,7 +26,7 @@ const page = () => {
         </ContentSection>
       </Container>
       <RegSavings />
-      {/* <MMAccounts /> */}
+      <MMAccounts />
       {/* <ClubAccounts /> */}
       {/* <Cds /> */}
       {/* <IRAs /> */}

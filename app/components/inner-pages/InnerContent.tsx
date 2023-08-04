@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Container from "@/app/layouts/Container";
 import TwoCol from "@/app/layouts/TwoCol";
 import ContentCol from "./ContentCol";
@@ -8,6 +7,7 @@ type BgColorVariant = "white" | "blue" | "green" | "grey";
 type OrderVariant = "imageFirst" | "contentFirst";
 
 type InnerContentProps = {
+  sectionName: string;
   children: React.ReactNode;
   ImgSrc: string;
   ImgAlt: string;
@@ -16,6 +16,7 @@ type InnerContentProps = {
 };
 
 const InnerContent = ({
+  sectionName,
   children,
   ImgSrc,
   ImgAlt,
@@ -36,7 +37,7 @@ const InnerContent = ({
       : "tw-text-brandingGrey-700";
 
   return (
-    <div className={`tw-py-8 lg:tw-py-16 ${bgClass}`}>
+    <div className={`${sectionName} tw-py-8 lg:tw-py-16 ${bgClass}`}>
       <Container>
         <TwoCol>
           {order === "contentFirst" ? (
