@@ -5,8 +5,8 @@ import Button from "@/app/components/Button";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import Container from "../Container";
-// import NavLink from "./nav/NavLink";
-// import { navItems } from "./nav/data";
+import NavLink from "./nav/NavLink";
+import { navItems } from "./nav/data";
 
 const MainBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -46,21 +46,21 @@ const MainBar = () => {
           />
         </div>
       </Container>
-      {/* <nav className="relative"> */}
-      {/*   <ul */}
-      {/*     className={`bg-brandingBlue-400 text-white py-4 w-full z-50 text-center justify-center gap-24 md:flex absolute md:relative w-f ${!toggle ? "hidden" : "" */}
-      {/*       }`}> */}
-      {/*     {navItems.map((item, idx) => ( */}
-      {/*       <NavLink */}
-      {/*         key={idx} */}
-      {/*         link={item.link} */}
-      {/*         text={item.text} */}
-      {/*         className={item.className ? item.className : ""} */}
-      {/*         subMenu={item.subMenu} */}
-      {/*       /> */}
-      {/*     ))} */}
-      {/*   </ul> */}
-      {/* </nav> */}
+      <nav className="tw-relative">
+        <ul
+          className={`tw-bg-brandingBlue-400 tw-text-white tw-py-4 tw-w-full tw-z-50 tw-text-center tw-justify-center tw-gap-24 md:tw-flex tw-absolute md:tw-relative tw-w-f ${!toggle ? "tw-hidden" : ""
+            }`}>
+          {navItems.map((item, idx) => (
+            <NavLink
+              key={idx}
+              link={item.link}
+              text={item.text}
+              className={item.className ? item.className : ""}
+            // subMenu={item.subMenu}
+            />
+          ))}
+        </ul>
+      </nav>
     </div>
   );
 };

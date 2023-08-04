@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </Container>
       <img
-        className="tw-h-[500px] md:tw-h-[750px] tw-w-full tw-object-cover tw-border-t-8 tw-border-brandingBlue-400 tw-md:border-t-0"
+        className="tw-h-[500px] md:tw-h-[750px] tw-w-full tw-object-cover tw-border-t-8 md:tw-border-t-0 tw-border-brandingBlue-400 tw-md:border-t-0"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
