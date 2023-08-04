@@ -2,6 +2,7 @@ import HeroImg from "../components/inner-pages/HeroImg";
 import RegSavings from "./regSavings/RegSavings";
 import MMAccounts from "./moneyAccounts/MMAccounts";
 import ClubAccounts from "./clubAccounts/ClubAccounts";
+import Cds from "./cds/Cds";
 import Container from "../layouts/Container";
 import ContentSection from "../layouts/ContentSection";
 
@@ -29,7 +30,7 @@ const page = () => {
       <RegSavings />
       <MMAccounts />
       <ClubAccounts />
-      {/* <Cds /> */}
+      <Cds />
       {/* <IRAs /> */}
       {/* <CoverdaleAccounts /> */}
       <div className="py-4"></div>
