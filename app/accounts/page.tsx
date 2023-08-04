@@ -1,6 +1,7 @@
 import HeroImg from "../components/inner-pages/HeroImg";
 import RegSavings from "./regSavings/RegSavings";
 import MMAccounts from "./moneyAccounts/MMAccounts";
+import ClubAccounts from "./clubAccounts/ClubAccounts";
 import Container from "../layouts/Container";
 import ContentSection from "../layouts/ContentSection";
 
@@ -27,7 +28,7 @@ const page = () => {
       </Container>
       <RegSavings />
       <MMAccounts />
-      {/* <ClubAccounts /> */}
+      <ClubAccounts />
       {/* <Cds /> */}
       {/* <IRAs /> */}
       {/* <CoverdaleAccounts /> */}
