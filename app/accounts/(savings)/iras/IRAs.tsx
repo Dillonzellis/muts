@@ -2,9 +2,9 @@ import ContentBody from "@/app/components/inner-pages/ContentBody";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
 import React from "react";
-import Button from "../../components/Button";
-import List from "../../components/List";
-import InnerContent from "../../components/inner-pages/InnerContent";
+import Button from "@/app/components/Button";
+import List from "@/app/components/List";
+import InnerContent from "@/app/components/inner-pages/InnerContent";
 import { items, items2 } from "./items";
 
 const IRAs = () => {

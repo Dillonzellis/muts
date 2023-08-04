@@ -1,10 +1,10 @@
 import HeroImg from "../components/inner-pages/HeroImg";
-import CoverdaleAccounts from "./coverdale/CoverDaleAccounts";
-import RegSavings from "./regSavings/RegSavings";
-import MMAccounts from "./moneyAccounts/MMAccounts";
-import ClubAccounts from "./clubAccounts/ClubAccounts";
-import Cds from "./cds/Cds";
-import IRAs from "./iras/IRAs";
+import CoverdaleAccounts from "./(savings)/coverdale/CoverDaleAccounts";
+import RegSavings from "./(savings)/regSavings/RegSavings";
+import MMAccounts from "./(savings)/moneyAccounts/MMAccounts";
+import ClubAccounts from "./(savings)/clubAccounts/ClubAccounts";
+import Cds from "./(savings)/cds/Cds";
+import IRAs from "./(savings)/iras/IRAs";
 import Container from "../layouts/Container";
 import ContentSection from "../layouts/ContentSection";
 

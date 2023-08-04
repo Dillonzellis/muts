@@ -1,9 +1,9 @@
 import Disclaimer from "@/app/components/Disclaimer";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import React from "react";
-import Button from "../../components/Button";
-import List from "../../components/List";
-import InnerContent from "../../components/inner-pages/InnerContent";
+import Button from "@/app/components/Button";
+import List from "@/app/components/List";
+import InnerContent from "@/app/components/inner-pages/InnerContent";
 import items from "./items";
 
 const CoverdaleAccounts = () => {
