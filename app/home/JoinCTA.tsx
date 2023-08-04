@@ -3,7 +3,7 @@ import ContentSection from "../layouts/ContentSection";
 
 const JoinCTA = () => {
   return (
-    <ContentSection className="tw-pt-24 lg:tw-pt-[20rem] xl:tw-pt-[18rem] 2xl:tw-pt-32">
+    <ContentSection className="join-cta tw-pt-24 lg:tw-pt-[20rem] xl:tw-pt-[18rem] 2xl:tw-pt-32">
       <Container>
         <div className="tw-flex tw-justify-center">
           <div className="tw-flex tw-max-w-prose tw-flex-col tw-gap-3 lg:tw-gap-6 tw-text-center">

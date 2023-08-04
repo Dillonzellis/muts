@@ -5,7 +5,7 @@ import CheckItem from "./CheckItem";
 
 const ServicesCTA = () => {
   return (
-    <ContentSection>
+    <ContentSection className="services-cta">
       <Container>
         <div className="tw-grid tw-gap-8 md:tw-grid-cols-2 tw-items-center">
           <div>

@@ -4,7 +4,7 @@ type Props = {
 };
 
 const ContentSection = ({ children, className = "" }: Props) => {
-  return <section className={`tw-py-12 ${className}`}>{children}</section>;
+  return <div className={`tw-py-12 ${className}`}>{children}</div>;
 };
 
 export default ContentSection;
