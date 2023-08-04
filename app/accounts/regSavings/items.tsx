@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const items: React.ReactNode[] = [
@@ -7,19 +6,17 @@ const items: React.ReactNode[] = [
     <em>(Minimum $5 must remain in account)</em>
   </React.Fragment>,
   <React.Fragment key="2">
-    <a href="/some-url">Dividend-bearing</a>
+    <a href="#">Dividend-bearing</a>
   </React.Fragment>,
-  <React.Fragment key="3">
-    Up to 6 free withdrawals/month
-  </React.Fragment>,
+  <React.Fragment key="3">Up to 6 free withdrawals/month</React.Fragment>,
   <React.Fragment key="4">
-    <a href="/some-url">24/7 remote access</a>
+    <a href="#">24/7 remote access</a>
   </React.Fragment>,
   <React.Fragment key="5">
-    <a href="/some-url">Direct deposit</a>
+    <a href="#">Direct deposit</a>
   </React.Fragment>,
   <React.Fragment key="6">
-    <a href="/some-url">Payroll deduction</a>
+    <a href="#">Payroll deduction</a>
   </React.Fragment>,
 ];
 

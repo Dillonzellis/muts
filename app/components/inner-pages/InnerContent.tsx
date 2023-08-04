@@ -36,7 +36,7 @@ const InnerContent = ({
       : "tw-text-brandingGrey-700";
 
   return (
-    <section className={`tw-py-8 lg:tw-py-16 ${bgClass}`}>
+    <div className={`tw-py-8 lg:tw-py-16 ${bgClass}`}>
       <Container>
         <TwoCol>
           {order === "contentFirst" ? (
@@ -52,7 +52,7 @@ const InnerContent = ({
           )}
         </TwoCol>
       </Container>
-    </section>
+    </div>
   );
 };
 
