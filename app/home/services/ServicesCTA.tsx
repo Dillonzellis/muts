@@ -1,4 +1,5 @@
 import Container from "@/app/layouts/Container";
+import Button from "@/app/components/Button";
 import ContentSection from "@/app/layouts/ContentSection";
 import CheckItem from "./CheckItem";
 
@@ -29,7 +30,7 @@ const ServicesCTA = () => {
               <CheckItem />
               <CheckItem />
             </div>
-            {/* <Button btnText="apply today" link="#" className="self-start" /> */}
+            <Button btnText="apply today" link="#" className="self-start" />
           </div>
         </div>
       </Container>

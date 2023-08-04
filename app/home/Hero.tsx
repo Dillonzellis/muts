@@ -1,4 +1,5 @@
 import Container from "../layouts/Container";
+import Button from "../components/Button";
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
               low APR* of 8%, and a maximum 6 months tern. Automatic payment is
               required**. Offer available May 1st - August 31st.
             </p>
-            {/* <Button btnText="apply today" link="#" className="self-start" /> */}
+            <Button btnText="apply today" link="#" className="self-start" />
           </div>
         </div>
       </Container>

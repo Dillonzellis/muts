@@ -1,6 +1,6 @@
 "use client";
 
-// import Button from "@/app/(components)/Button";
+import Button from "@/app/components/Button";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import Container from "../Container";
@@ -38,11 +38,11 @@ const MainBar = () => {
             />
           )}
 
-          {/* <Button */}
-          {/*   btnText="LOGIN" */}
-          {/*   link="#" */}
-          {/*   className="hidden font-bold md:flex" */}
-          {/* /> */}
+          <Button
+            btnText="LOGIN"
+            link="#"
+            className="hidden font-bold md:flex"
+          />
         </div>
       </Container>
       <nav className="tw-relative">
