@@ -15,7 +15,7 @@ export const navItems: NavItem[] = [
   {
     text: "login",
     link: "#",
-    className: "md:hidden",
+    className: "md:tw-hidden",
   },
   {
     text: "accounts",
