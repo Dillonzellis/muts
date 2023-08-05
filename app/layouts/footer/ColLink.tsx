@@ -1,12 +1,11 @@
 export type ColLinkProps = {
   linkText: string;
   href: string;
-  key: React.Key;
 };
 
-const ColLink = ({ linkText, href, key }: ColLinkProps) => {
+const ColLink = ({ linkText, href }: ColLinkProps) => {
   return (
-    <div key={key}>
+    <div>
       <a href={href} target="_blank" rel="noopener noreferrer">
         {linkText}
       </a>

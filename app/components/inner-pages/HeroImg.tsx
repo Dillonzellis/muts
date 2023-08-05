@@ -62,8 +62,8 @@ const HeroImg = ({
               x2="1294.91"
               y2="3.51237"
               gradientUnits="userSpaceOnUse">
-              <stop stop-color="#202020" />
-              <stop offset="1" stop-color="#005397" />
+              <stop stopColor="#202020" />
+              <stop offset="1" stopColor="#005397" />
             </linearGradient>
           </defs>
         </svg>
