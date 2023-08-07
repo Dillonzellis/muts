@@ -5,9 +5,7 @@ import MMAccounts from "./(savings)/moneyAccounts/MMAccounts";
 import ClubAccounts from "./(savings)/clubAccounts/ClubAccounts";
 import Cds from "./(savings)/cds/Cds";
 import IRAs from "./(savings)/iras/IRAs";
-import Container from "../layouts/Container";
-import ContentSection from "../layouts/ContentSection";
-import SectionHeaders from "../components/inner-pages/SectionHeaders";
+import PersonalChecking from "./(checking)/personalChecking/PersonalChecking";
 
 const page = () => {
   return (
@@ -19,7 +17,6 @@ const page = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/account-hero.jpg"
         imgAlt="accounts"
       />
-      {/* <SectionHeaders title="Savings" subHeading="Save & Earn Accounts" subText="Dividen bearing accounts promote financial growth." /> */}
       {/* Savings */}
       <RegSavings />
       <MMAccounts />
@@ -27,8 +24,8 @@ const page = () => {
       <Cds />
       <IRAs />
       <CoverdaleAccounts />
-      {/* <SectionHeaders title="Checking" subHeading="" subText="" /> */}
       {/* Checking */}
+      <PersonalChecking />
       <div className="tw-py-4"></div>
     </main>
   );
