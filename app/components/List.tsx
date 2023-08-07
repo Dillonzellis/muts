@@ -1,15 +1,22 @@
+import { CheckIcon } from "@heroicons/react/24/solid";
+
 type ListProps = {
   liItems: React.ReactNode[];
 };
 
 const List = ({ liItems }: ListProps) => {
   return (
-    <ul className="tw-list-inside tw-list-disc">
+    <div className="tw-flex  tw-flex-col tw-gap-2">
       {liItems.map((item, index) => (
-        <li key={index}>{item}</li>
+        <div key={index} className="tw-flex tw-gap-2">
+          <CheckIcon className="tw-h-5 tw-w-5 tw-flex-shrink-0 tw-text-brandingGreen-400" />
+          <div>{item}</div>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 
 export default List;
+
+
