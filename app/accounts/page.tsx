@@ -28,7 +28,6 @@ const page = () => {
       {/* Checking */}
       <PersonalChecking />
       <BusinessChecking />
-      <div className="tw-py-4"></div>
     </main>
   );
 };
