@@ -6,6 +6,7 @@ type ButtonProps = {
   variant?: "light";
   className?: string;
   arrow?: boolean;
+  selfStart?: boolean;
 };
 
 const Button = ({
@@ -14,15 +15,18 @@ const Button = ({
   className = "",
   arrow,
   variant,
+  selfStart,
 }: ButtonProps) => {
   const bgColor =
     variant === "light"
       ? "tw-bg-white tw-text-brandingBlue-400"
       : "tw-bg-brandingGreen-400 tw-text-white";
 
+  const selfStartClass = selfStart ? "tw-self-start" : ""
+
   return (
     <div
-      className={`${className} tw-self-start tw-inline-flex tw-cursor-pointer tw-items-center tw-gap-1 tw-px-8 tw-py-3 tw-capitalize ${bgColor}`}>
+      className={`${className} ${selfStartClass} tw-inline-flex tw-cursor-pointer tw-items-center tw-gap-1 tw-px-8 tw-py-3 tw-capitalize ${bgColor}`}>
       <div>
         <a className="font-semibold" href={link}>
           {btnText}

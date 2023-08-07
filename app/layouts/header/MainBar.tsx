@@ -43,6 +43,8 @@ const MainBar = () => {
             btnText="LOGIN"
             link="#"
             className="tw-hidden tw-font-bold md:tw-flex"
+            arrow={true}
+            selfStart={false}
           />
         </div>
       </Container>
