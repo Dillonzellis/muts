@@ -15,7 +15,7 @@ const Button = ({
   className = "",
   arrow,
   variant,
-  selfStart,
+  selfStart = true,
 }: ButtonProps) => {
   const bgColor =
     variant === "light"
