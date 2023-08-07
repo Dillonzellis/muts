@@ -42,8 +42,8 @@ const InnerContent = ({
         <TwoCol>
           {order === "contentFirst" ? (
             <>
-              <ContentCol color={color}>{children}</ContentCol>
-              <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} />
+              <ContentCol color={color} order="tw-order-2 md:tw-order-1">{children}</ContentCol>
+              <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} order="tw-order-1 md:tw-order-2" />
             </>
           ) : (
             <>

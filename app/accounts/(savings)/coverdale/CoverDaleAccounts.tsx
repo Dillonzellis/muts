@@ -11,7 +11,7 @@ const CoverdaleAccounts = () => {
     <InnerContent
       sectionName="coverdale"
       order="contentFirst"
-      variant="green"
+      variant="blue"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
       ImgAlt="savings account">
       <div className="tw-flex tw-flex-col tw-gap-3">

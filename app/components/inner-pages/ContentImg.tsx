@@ -2,12 +2,13 @@
 type ContentImgProps = {
   ImgSrc: string;
   ImgAlt: string;
+  order?: string;
 };
 
-const ContentImg = ({ ImgSrc, ImgAlt }: ContentImgProps) => {
+const ContentImg = ({ ImgSrc, ImgAlt, order }: ContentImgProps) => {
   return (
     <>
-      <img className="tw-rounded-md tw-shadow-lg" src={ImgSrc} alt={ImgAlt} />
+      <img className={`tw-w-full tw-max-w-[503px] tw-mx-auto tw-rounded-md tw-shadow-lg ${order}`} src={ImgSrc} alt={ImgAlt} />
     </>
   );
 };
