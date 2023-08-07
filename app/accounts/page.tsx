@@ -6,6 +6,7 @@ import ClubAccounts from "./(savings)/clubAccounts/ClubAccounts";
 import Cds from "./(savings)/cds/Cds";
 import IRAs from "./(savings)/iras/IRAs";
 import PersonalChecking from "./(checking)/personalChecking/PersonalChecking";
+import BusinessChecking from "./(checking)/businessChecking/BusinessChecking";
 
 const page = () => {
   return (
@@ -26,6 +27,7 @@ const page = () => {
       <CoverdaleAccounts />
       {/* Checking */}
       <PersonalChecking />
+      <BusinessChecking />
       <div className="tw-py-4"></div>
     </main>
   );
