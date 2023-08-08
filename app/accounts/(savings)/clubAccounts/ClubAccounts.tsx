@@ -21,30 +21,32 @@ const ClubAccounts = () => {
           around!
         </ContentBody>
       </div>
-      <TwoCol>
-        <ContentCol>
-          <ContentSecondaryHeading title="Holiday Club Accounts" />
-          <div>
-            Prepare for the expensive holiday shopping season by saving
-            throughout the year.
-          </div>
-          <List liItems={items} />
-          <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row tw-pb-2">
-            <Button btnText="Open an Account" link="#" />
-            <Button btnText="calculate savings" link="#" />
-          </div>
-        </ContentCol>
-        <ContentCol>
-          <ContentSecondaryHeading title="Vacation Club Accounts" />
-          <div>Stash funds away for a vacation getaway!</div>
-          <List liItems={items2} />
-          <ButtonWrapper>
-            <Button btnText="Open an Account" link="#" />
-            <Button btnText="calculate savings" link="#" />
-          </ButtonWrapper>
-        </ContentCol>
-      </TwoCol>
-    </ContentTwoCol>
+      <div className="tw-pt-4">
+        <TwoCol center="">
+          <ContentCol>
+            <ContentSecondaryHeading title="Holiday Club Accounts" />
+            <div>
+              Prepare for the expensive holiday shopping season by saving
+              throughout the year.
+            </div>
+            <List liItems={items} />
+            <ButtonWrapper>
+              <Button btnText="Open an Account" link="#" />
+              <Button btnText="calculate savings" link="#" />
+            </ButtonWrapper>
+          </ContentCol>
+          <ContentCol>
+            <ContentSecondaryHeading title="Vacation Club Accounts" />
+            <div>Stash funds away for a vacation getaway!</div>
+            <List liItems={items2} />
+            {/* <ButtonWrapper> */}
+            {/*   <Button btnText="Open an Account" link="#" /> */}
+            {/*   <Button btnText="calculate savings" link="#" /> */}
+            {/* </ButtonWrapper> */}
+          </ContentCol>
+        </TwoCol>
+      </div>
+    </ContentTwoCol >
   );
 };
 

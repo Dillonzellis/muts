@@ -4,7 +4,7 @@ type ButtonWrapperProps = {
 
 const ButtonWrapper = ({ children }: ButtonWrapperProps) => {
   return (
-    <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+    <div className="tw-flex tw-flex-wrap tw-gap-2">
       {children}
     </div>
   )

@@ -1,4 +1,5 @@
 import ContentBody from "@/app/components/inner-pages/ContentBody";
+import TwoCol from "@/app/layouts/TwoCol";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
 import React from "react";
@@ -7,33 +8,38 @@ import List from "@/app/components/List";
 import InnerContent from "@/app/components/inner-pages/InnerContent";
 import { items, items2 } from "./items";
 import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
+import ContentTwoCol from "@/app/components/inner-pages/ContentTwoCol";
+import ContentCol from "@/app/components/inner-pages/ContentCol";
 
 const IRAs = () => {
   return (
-    <InnerContent
+    <ContentTwoCol
       sectionName="iras"
-      order="imageFirst"
-      variant="white"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
-      ImgAlt="savings account">
+      variant="white">
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="IRAs" />
-      </div>
-      <div className="tw-flex tw-flex-col tw-gap-2">
         <ContentBody>
           Make the golden years the best years. It’s never too early to start
           saving for retirement!
         </ContentBody>
-        <ContentSecondaryHeading title="Traditional IRAs" />
-        <List liItems={items} />
-        <ContentSecondaryHeading title="Roth IRAs" />
-        <List liItems={items2} />
       </div>
-      <ButtonWrapper>
-        <Button btnText="Open an Account" link="#" />
-        <Button btnText="calculate savings" link="#" />
-      </ButtonWrapper>
-    </InnerContent>
+      <div className="tw-pt-4">
+        <TwoCol center="">
+          <ContentCol>
+            <ContentSecondaryHeading title="Roth IRAs" />
+            <List liItems={items2} />
+            <ButtonWrapper>
+              <Button btnText="Open an Account" link="#" />
+              <Button btnText="calculate savings" link="#" />
+            </ButtonWrapper>
+          </ContentCol>
+          <ContentCol>
+            <ContentSecondaryHeading title="Traditional IRAs" />
+            <List liItems={items} />
+          </ContentCol>
+        </TwoCol>
+      </div>
+    </ContentTwoCol>
   );
 };
 
