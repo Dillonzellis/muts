@@ -3,7 +3,7 @@ import { ReactNode } from "react"
 type SectionContentProps = {
   children: ReactNode,
   sectionName: string,
-  bgClass: string,
+  bgClass?: string,
 }
 
 const SectionContent = ({ children, sectionName, bgClass }: SectionContentProps) => {
