@@ -1,4 +1,5 @@
 
+import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 import InnerContent from "@/app/components/inner-pages/InnerContent";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentBody from "@/app/components/inner-pages/ContentBody";
@@ -25,9 +26,9 @@ const BusinessChecking = () => {
       </div>
       <List liItems={items} />
       <Disclaimer text="*You must maintain a minimum daily balance of $250.00 in your account each day to obtain the disclosed annual percentage yield. | **Members are eligible for the Courtesy Pay feature after 6 months of satisfactory performance on a share draft account. This feature offers overdraft protection for a fee. Call the credit union for details." />
-      <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+      <ButtonWrapper>
         <Button btnText="Open an Account" link="#" />
-      </div>
+      </ButtonWrapper>
     </InnerContent>
   )
 }

@@ -6,6 +6,7 @@ import Button from "@/app/components/Button";
 import List from "@/app/components/List";
 import InnerContent from "@/app/components/inner-pages/InnerContent";
 import { items, items2 } from "./items";
+import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 
 const IRAs = () => {
   return (
@@ -28,10 +29,10 @@ const IRAs = () => {
         <ContentSecondaryHeading title="Roth IRAs" />
         <List liItems={items2} />
       </div>
-      <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+      <ButtonWrapper>
         <Button btnText="Open an Account" link="#" />
         <Button btnText="calculate savings" link="#" />
-      </div>
+      </ButtonWrapper>
     </InnerContent>
   );
 };

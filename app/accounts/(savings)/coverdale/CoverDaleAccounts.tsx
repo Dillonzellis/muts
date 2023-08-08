@@ -1,4 +1,5 @@
 import Disclaimer from "@/app/components/Disclaimer";
+import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import React from "react";
 import Button from "@/app/components/Button";
@@ -18,10 +19,10 @@ const CoverdaleAccounts = () => {
         <ContentHeading title="Coverdell Savings Accounts" />
       </div>
       <List liItems={items} />
-      <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+      <ButtonWrapper>
         <Button btnText="Open an Account" link="#" variant="light" />
         <Button btnText="calculate savings" link="#" variant="light" />
-      </div>
+      </ButtonWrapper>
       <Disclaimer text="*The Credit Union provides no legal advice to members and provides the foregoing information from a reliable resource to give our members a basic understanding of these services. You should consult with your tax or legal advisor regarding any particular and the current status of applicable federal and state laws." />
     </InnerContent>
   );

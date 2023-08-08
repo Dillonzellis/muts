@@ -1,4 +1,5 @@
 import ContentBody from "@/app/components/inner-pages/ContentBody";
+import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import React from "react";
 import Button from "@/app/components/Button";
@@ -24,10 +25,10 @@ const MMAccounts = () => {
         </ContentBody>
         <List liItems={items} />
       </div>
-      <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+      <ButtonWrapper>
         <Button btnText="Open an Account" link="#" />
         <Button btnText="calculate savings" link="#" />
-      </div>
+      </ButtonWrapper>
     </InnerContent>
   );
 };
