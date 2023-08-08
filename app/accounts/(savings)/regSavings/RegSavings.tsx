@@ -12,7 +12,7 @@ const RegSavings = () => {
       sectionName="reg-savings"
       order="imageFirst"
       variant="white"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1420037581.jpg"
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1365692265.jpg"
       ImgAlt="savings account">
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Regular Savings" />
