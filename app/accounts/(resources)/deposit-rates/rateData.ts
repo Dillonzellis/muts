@@ -45,6 +45,36 @@ export const shareData = [
   },
 ];
 
+export const cdHeaders = [
+  { key: 'terms', label: 'Terms', classname: 'tw-rounded-tl-xl' },
+  { key: 'cdRate', label: 'Dividend Rate' },
+  { key: 'cdAPY', label: 'Annual Percentage Yield' },
+  { key: 'cdFreq', label: 'Frequency', classname: 'tw-rounded-tr-xl' }
+];
 
+
+export const cdData = [
+  {
+    terms: '90 days', cdRate: '1.62%', cdAPY: '1.632%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '6 Months', cdRate: '2.60%', cdAPY: '2.631%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '12 Months', cdRate: '3.67%', cdAPY: '3.732%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '18 Months', cdRate: '3.47%', cdAPY: '3.526%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '2 Years', cdRate: '3.37%', cdAPY: '3.423%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '4 Years', cdRate: '3.22%', cdAPY: '3.268%', cdFreq: 'Monthly'
+  },
+  {
+    terms: '5 Years', cdRate: '3.37%', cdAPY: '3.423%', cdFreq: 'Monthly'
+  },
+]
 
 

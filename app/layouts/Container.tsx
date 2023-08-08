@@ -6,7 +6,7 @@ type ContainerProps = {
 const Container = ({ children, size }: ContainerProps) => {
 
   let maxWidth = 'tw-max-w-[1180px]';
-  if (size === "small") maxWidth = 'tw-max-w-[850px]'
+  if (size === "small") maxWidth = 'tw-max-w-[1000px]'
   if (size === "large") maxWidth = 'tw-max-w-[1400px]'
 
 
