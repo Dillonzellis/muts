@@ -8,6 +8,7 @@ import { items, items2 } from "./items";
 import ContentTwoCol from "@/app/components/inner-pages/ContentTwoCol";
 import TwoCol from "@/app/layouts/TwoCol";
 import ContentCol from "@/app/components/inner-pages/ContentCol";
+import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 
 const ClubAccounts = () => {
   return (
@@ -37,10 +38,10 @@ const ClubAccounts = () => {
           <ContentSecondaryHeading title="Vacation Club Accounts" />
           <div>Stash funds away for a vacation getaway!</div>
           <List liItems={items2} />
-          <div className="tw-flex tw-flex-col tw-gap-2 lg:tw-flex-row">
+          <ButtonWrapper>
             <Button btnText="Open an Account" link="#" />
             <Button btnText="calculate savings" link="#" />
-          </div>
+          </ButtonWrapper>
         </ContentCol>
       </TwoCol>
     </ContentTwoCol>
