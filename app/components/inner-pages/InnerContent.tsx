@@ -2,6 +2,7 @@ import Container from "@/app/layouts/Container";
 import TwoCol from "@/app/layouts/TwoCol";
 import ContentCol from "./ContentCol";
 import ContentImg from "./ContentImg";
+import SectionContent from "./SectionContent";
 
 type BgColorVariant = "white" | "blue" | "green" | "grey";
 type OrderVariant = "imageFirst" | "contentFirst";
@@ -37,7 +38,7 @@ const InnerContent = ({
       : "tw-text-brandingGrey-700";
 
   return (
-    <div className={`${sectionName} tw-py-8 lg:tw-py-16 ${bgClass}`}>
+    <SectionContent sectionName={sectionName} bgClass={bgClass}>
       <Container>
         <TwoCol>
           {order === "contentFirst" ? (
@@ -53,7 +54,7 @@ const InnerContent = ({
           )}
         </TwoCol>
       </Container>
-    </div>
+    </SectionContent>
   );
 };
 
