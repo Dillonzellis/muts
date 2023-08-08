@@ -6,10 +6,20 @@ import Container from "@/app/layouts/Container";
 import ContentHeading from "./ContentHeading";
 import ContentBody from "./ContentBody";
 import List from "../List";
+import { ReactNode } from "react";
+
+type ContentTwoColProps = {
+  sectionName: string;
+  children: ReactNode;
+  variant: BgColorVariant;
+  contentHeading: string;
+}
+
+type BgColorVariant = "white" | "blue" | "green" | "grey";
 
 const ContentTwoCol = () => {
   return (
-    <div>
+    <div className="">
       <Container>
         <div className="tw-flex tw-flex-col tw-gap-3">
           <ContentHeading title="Club Accounts " />
@@ -43,7 +53,7 @@ const ContentTwoCol = () => {
           </ContentCol>
         </TwoCol>
       </Container>
-    </div >
+    </div>
 
   )
 }
