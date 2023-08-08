@@ -29,7 +29,6 @@ const page = () => {
       {/* Checking */}
       <PersonalChecking />
       <BusinessChecking />
-      <ContentTwoCol />
     </main>
   );
 };
