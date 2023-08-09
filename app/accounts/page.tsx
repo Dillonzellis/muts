@@ -7,6 +7,7 @@ import Cds from "./(savings)/cds/Cds";
 import IRAs from "./(savings)/iras/IRAs";
 import PersonalChecking from "./(checking)/personalChecking/PersonalChecking";
 import BusinessChecking from "./(checking)/businessChecking/BusinessChecking";
+import { DirectDeposit } from "./(resources)/direct-deposit/DirectDeposit";
 
 const page = () => {
   return (
@@ -28,6 +29,7 @@ const page = () => {
       {/* Checking */}
       <PersonalChecking />
       <BusinessChecking />
+      <DirectDeposit />
     </main>
   );
 };
