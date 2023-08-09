@@ -3,7 +3,7 @@ type DisclaimerProps = {
 };
 
 const Disclaimer = ({ text }: DisclaimerProps) => {
-  return <em className="tw-italic tw-text-sm">{text}</em>;
+  return <div><em className="tw-italic tw-text-sm">{text}</em></div>;
 };
 
 export default Disclaimer;
