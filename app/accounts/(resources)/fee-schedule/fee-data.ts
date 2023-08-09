@@ -5,6 +5,7 @@ export const feeHeaders = [
 export const feeData = [
   {
     fee: 'membership fee',
+    test: 'test',
     value: '5.00'
   }
 ]

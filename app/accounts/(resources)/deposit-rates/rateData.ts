@@ -46,12 +46,11 @@ export const shareData = [
 ];
 
 export const cdHeaders = [
-  { key: 'terms', label: 'Terms', classname: 'tw-rounded-tl-xl' },
+  { key: 'terms', label: 'Terms', className: 'tw-rounded-tl-xl' },
   { key: 'cdRate', label: 'Dividend Rate' },
   { key: 'cdAPY', label: 'Annual Percentage Yield' },
-  { key: 'cdFreq', label: 'Frequency', classname: 'tw-rounded-tr-xl' }
+  { key: 'cdFreq', label: 'Frequency', className: 'tw-rounded-tr-xl' }
 ];
-
 
 export const cdData = [
   {
