@@ -3,8 +3,8 @@ import ContentSection from "@/app/layouts/ContentSection";
 
 type SectionHeadersProp = {
   title: string,
-  subHeading: string,
-  subText: string,
+  subHeading?: string,
+  subText?: string,
 }
 
 const SectionHeaders = ({ title, subHeading, subText }: SectionHeadersProp) => {
