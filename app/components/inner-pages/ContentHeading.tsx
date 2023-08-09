@@ -3,7 +3,7 @@ type ContentHeadingProps = {
 };
 
 const ContentHeading = ({ title }: ContentHeadingProps) => {
-  return <h3 className="tw-text-2xl md:tw-text-4xl tw-font-semibold">{title}</h3>;
+  return <div className="tw-text-2xl md:tw-text-4xl tw-font-semibold">{title}</div>;
 };
 
 export default ContentHeading;

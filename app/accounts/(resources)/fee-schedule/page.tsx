@@ -3,7 +3,6 @@ import { feeHeaders, feeData, mmHeaders, mmData, webHeaders, webData } from "./f
 import DataTable from "@/app/components/DataTable";
 import Container from "@/app/layouts/Container";
 import Disclaimer from "@/app/components/Disclaimer";
-import SectionHeaders from "@/app/components/inner-pages/SectionHeaders";
 import PageHeader from "@/app/components/inner-pages/PageHeader";
 
 const FeeSchedule = () => {

@@ -8,6 +8,7 @@ import IRAs from "./(savings)/iras/IRAs";
 import PersonalChecking from "./(checking)/personalChecking/PersonalChecking";
 import BusinessChecking from "./(checking)/businessChecking/BusinessChecking";
 import { DirectDeposit } from "./(resources)/direct-deposit/DirectDeposit";
+import PayrollDeduction from "./(resources)/PayrollDeduction";
 
 const page = () => {
   return (
@@ -30,6 +31,7 @@ const page = () => {
       <PersonalChecking />
       <BusinessChecking />
       <DirectDeposit />
+      <PayrollDeduction />
     </main>
   );
 };
