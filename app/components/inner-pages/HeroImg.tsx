@@ -30,7 +30,7 @@ const HeroImg = ({
       </Container>
       <div className="tw-relative tw-bg-brandingGrey-700">
         <img
-          className="tw-brightness-50 md:tw-brightness-75 tw-w-full tw-min-h-[300px] tw-object-cover tw-mx-auto tw-max-w-[1920px] tw-border-t-8 tw-border-brandingBlue-400 md:tw-border-t-0"
+          className="tw-max-h-[680px] tw-brightness-50 md:tw-brightness-75 tw-w-full tw-min-h-[300px] tw-object-cover tw-mx-auto tw-max-w-[1920px] tw-border-t-8 tw-border-brandingBlue-400 md:tw-border-t-0"
           height={715}
           width={1920}
           src={imgSrc}
