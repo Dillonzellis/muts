@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-// import SubMenu from "./SubMenu";
+import SubMenu from "./SubMenu";
 import type { NavItem } from "./data";
 
 const NavLink = ({ text, link, className, subMenu }: NavItem) => {
@@ -28,13 +28,13 @@ const NavLink = ({ text, link, className, subMenu }: NavItem) => {
       onMouseEnter={showSubMenu}
       onMouseLeave={hideSubMenu}>
       <a href={`/${link}`}>{text}</a>
-      {/* {subMenu && isSubMenuVisible && ( */}
-      {/*   <SubMenu */}
-      {/*     items={subMenu} */}
-      {/*     onMouseEnter={cancelHideSubMenu} */}
-      {/*     onMouseLeave={hideSubMenu} */}
-      {/*   /> */}
-      {/* )} */}
+      {subMenu && isSubMenuVisible && (
+        <SubMenu
+          items={subMenu}
+          onMouseEnter={cancelHideSubMenu}
+          onMouseLeave={hideSubMenu}
+        />
+      )}
     </li>
   );
 };

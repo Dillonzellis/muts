@@ -30,9 +30,17 @@ export const navItems: NavItem[] = [
             link: "#",
           },
           {
-            text: "fMoney Market Accounts",
+            text: "Money Market Accounts",
             link: "#",
-          }
+          },
+          {
+            text: "Club Accounts",
+            link: "",
+          },
+          {
+            text: "Certificates of Deposit (CDs)",
+            link: "IRAs",
+          },
         ]
       },
       {
@@ -40,14 +48,60 @@ export const navItems: NavItem[] = [
         link: "#",
         subMenu2: [
           {
-            text: "checking 1",
+            text: "Personal Checking",
             link: "#"
+          },
+          {
+            text: "Business Checking",
+            link: "",
           },
         ]
       },
       {
         text: "Account Resources",
         link: "#",
+        subMenu2: [
+          {
+            text: "Calculators",
+            link: "#"
+          },
+          {
+            text: "Deposit Rates",
+            link: "",
+          },
+          {
+            text: "Direct Deposit",
+            link: "",
+          },
+          {
+            text: "Payroll Deduction",
+            link: "",
+          },
+          {
+            text: "Fee Schedule",
+            link: "",
+          },
+          {
+            text: "Open Account",
+            link: "",
+          },
+          {
+            text: "Order Checks",
+            link: "",
+          },
+          {
+            text: "Stop Payment",
+            link: "",
+          },
+          {
+            text: "VISA® Debit Cards w/SecureLock",
+            link: "",
+          },
+          {
+            text: "Wire Funds",
+            link: "",
+          },
+        ]
       },
     ],
   },
@@ -64,7 +118,7 @@ export const navItems: NavItem[] = [
             link: "#",
           },
           {
-            text: "fMoney Market Accounts",
+            text: "Money Market Accounts",
             link: "#",
           }
         ]
