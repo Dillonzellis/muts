@@ -1,4 +1,5 @@
 import HeroImg from "../components/inner-pages/HeroImg"
+import AutoLoans from "./autoLoans/AutoLoans";
 
 const BorrowPage = () => {
   return (
@@ -10,6 +11,8 @@ const BorrowPage = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1393059175.jpg"
         imgAlt=""
       />
+      {/* Loans */}
+      <AutoLoans />
     </div>
   )
 }

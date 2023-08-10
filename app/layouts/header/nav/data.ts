@@ -118,16 +118,16 @@ export const navItems: NavItem[] = [
     link: "./borrow",
     subMenu: [
       {
-        text: "Savings",
-        link: "#",
+        text: "Loans",
+        link: "",
         subMenu2: [
           {
-            text: "Regular Savings",
-            link: "#",
+            text: "auto loans",
+            link: "/borrow/auto-loans",
           },
           {
-            text: "Money Market Accounts",
-            link: "#",
+            text: "boat, camper & motorcycle loans",
+            link: "/borrow/#boat-camper-motorcycle-loans",
           }
         ]
       },
