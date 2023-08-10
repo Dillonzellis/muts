@@ -19,7 +19,7 @@ export const navItems: NavItem[] = [
   },
   {
     text: "accounts",
-    link: "../accounts",
+    link: "./accounts",
     subMenu: [
       {
         text: "Savings",
@@ -115,7 +115,7 @@ export const navItems: NavItem[] = [
   },
   {
     text: "borrow",
-    link: "/borrow",
+    link: "./borrow",
     subMenu: [
       {
         text: "Savings",
