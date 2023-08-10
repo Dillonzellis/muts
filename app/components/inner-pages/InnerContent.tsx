@@ -9,6 +9,7 @@ type OrderVariant = "imageFirst" | "contentFirst";
 
 type InnerContentProps = {
   sectionName: string;
+  id?: string;
   children: React.ReactNode;
   ImgSrc: string;
   ImgAlt: string;
@@ -17,6 +18,7 @@ type InnerContentProps = {
 };
 
 const InnerContent = ({
+  id,
   sectionName,
   children,
   ImgSrc,
@@ -38,7 +40,7 @@ const InnerContent = ({
       : "tw-text-brandingGrey-700";
 
   return (
-    <SectionContent sectionName={sectionName} bgClass={bgClass}>
+    <SectionContent id={id} sectionName={sectionName} bgClass={bgClass}>
       <Container>
         <TwoCol>
           {order === "contentFirst" ? (

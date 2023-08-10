@@ -10,6 +10,7 @@ import items from "./items";
 const Cds = () => {
   return (
     <InnerContent
+      id="cds"
       sectionName="cds"
       order="contentFirst"
       variant="grey"

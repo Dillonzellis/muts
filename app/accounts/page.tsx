@@ -1,7 +1,7 @@
 import HeroImg from "../components/inner-pages/HeroImg";
 import DebitCards from "./(resources)/debit-cards/DebitCards";
-import CoverdaleAccounts from "./(savings)/coverdale/CoverDaleAccounts";
 import RegSavings from "./(savings)/regSavings/RegSavings";
+import CoverdellAccounts from "./(savings)/coverdale/CoverDaleAccounts";
 import MMAccounts from "./(savings)/moneyAccounts/MMAccounts";
 import ClubAccounts from "./(savings)/clubAccounts/ClubAccounts";
 import Cds from "./(savings)/cds/Cds";
@@ -27,7 +27,7 @@ const page = () => {
       <ClubAccounts />
       <Cds />
       <IRAs />
-      <CoverdaleAccounts />
+      <CoverdellAccounts />
       {/* Checking */}
       <PersonalChecking />
       <BusinessChecking />

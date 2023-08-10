@@ -7,9 +7,10 @@ import List from "@/app/components/List";
 import InnerContent from "@/app/components/inner-pages/InnerContent";
 import items from "./items";
 
-const CoverdaleAccounts = () => {
+const CoverdellAccounts = () => {
   return (
     <InnerContent
+      id="coverdell-savings-accounts"
       sectionName="coverdale"
       order="contentFirst"
       variant="blue"
@@ -28,4 +29,4 @@ const CoverdaleAccounts = () => {
   );
 };
 
-export default CoverdaleAccounts;
+export default CoverdellAccounts;

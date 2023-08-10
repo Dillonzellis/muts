@@ -9,6 +9,7 @@ import Button from "@/app/components/Button";
 const RegSavings = () => {
   return (
     <InnerContent
+      id="regular-savings"
       sectionName="reg-savings"
       order="imageFirst"
       variant="white"

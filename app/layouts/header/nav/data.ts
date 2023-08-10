@@ -27,19 +27,27 @@ export const navItems: NavItem[] = [
         subMenu2: [
           {
             text: "Regular Savings",
-            link: "#",
+            link: "/accounts/#regular-savings",
           },
           {
             text: "Money Market Accounts",
-            link: "#",
+            link: "/accounts/#money-market-accounts",
           },
           {
             text: "Club Accounts",
-            link: "",
+            link: "/accounts/#club-accounts",
           },
           {
             text: "Certificates of Deposit (CDs)",
-            link: "IRAs",
+            link: "/accounts/#cds",
+          },
+          {
+            text: "IRAs",
+            link: "/accounts/#iras",
+          },
+          {
+            text: "Coverdell Savings Accounts",
+            link: "/accounts/#coverdell-savings-accounts",
           },
         ]
       },

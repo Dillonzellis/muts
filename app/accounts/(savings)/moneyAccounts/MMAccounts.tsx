@@ -10,6 +10,7 @@ import items from "./items";
 const MMAccounts = () => {
   return (
     <InnerContent
+      id="money-market-accounts"
       sectionName="money-market"
       order="contentFirst"
       variant="blue"

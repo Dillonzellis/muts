@@ -12,7 +12,7 @@ import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 
 const ClubAccounts = () => {
   return (
-    <ContentTwoCol sectionName="club-accts" variant="white">
+    <ContentTwoCol id="club-accounts" sectionName="club-accounts" variant="white">
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Club Accounts " />
         <ContentBody>

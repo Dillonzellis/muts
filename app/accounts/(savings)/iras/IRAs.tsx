@@ -5,7 +5,6 @@ import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSeconda
 import React from "react";
 import Button from "@/app/components/Button";
 import List from "@/app/components/List";
-import InnerContent from "@/app/components/inner-pages/InnerContent";
 import { items, items2 } from "./items";
 import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 import ContentTwoCol from "@/app/components/inner-pages/ContentTwoCol";
@@ -14,6 +13,7 @@ import ContentCol from "@/app/components/inner-pages/ContentCol";
 const IRAs = () => {
   return (
     <ContentTwoCol
+      id="iras"
       sectionName="iras"
       variant="white">
       <div className="tw-flex tw-flex-col tw-gap-3">

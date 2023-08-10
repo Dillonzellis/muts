@@ -5,13 +5,14 @@ import SectionContent from "./SectionContent";
 
 type ContentTwoColProps = {
   sectionName: string;
+  id?: string;
   children: ReactNode;
   variant: BgColorVariant;
 }
 
 type BgColorVariant = "white" | "blue" | "green" | "grey";
 
-const ContentTwoCol = ({ sectionName, children, variant }: ContentTwoColProps) => {
+const ContentTwoCol = ({ sectionName, children, variant, id }: ContentTwoColProps) => {
 
   const bgColorClassMap: Record<BgColorVariant, string> = {
     white: "tw-bg-white",
@@ -24,7 +25,7 @@ const ContentTwoCol = ({ sectionName, children, variant }: ContentTwoColProps) =
 
   return (
     <div className="">
-      <SectionContent bgClass={bgClass} sectionName={sectionName}>
+      <SectionContent id={id} bgClass={bgClass} sectionName={sectionName}>
         <Container>
           {children}
         </Container>
