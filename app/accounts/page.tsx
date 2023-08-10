@@ -1,4 +1,5 @@
 import HeroImg from "../components/inner-pages/HeroImg";
+import DebitCards from "./(resources)/debit-cards/DebitCards";
 import CoverdaleAccounts from "./(savings)/coverdale/CoverDaleAccounts";
 import RegSavings from "./(savings)/regSavings/RegSavings";
 import MMAccounts from "./(savings)/moneyAccounts/MMAccounts";
@@ -32,6 +33,7 @@ const page = () => {
       <BusinessChecking />
       <DirectDeposit />
       <PayrollDeduction />
+      <DebitCards />
     </main>
   );
 };
