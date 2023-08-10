@@ -58,7 +58,7 @@ const MainBar = () => {
               link={item.link}
               text={item.text}
               className={item.className ? item.className : ""}
-            // subMenu={item.subMenu}
+              subMenu={item.subMenu}
             />
           ))}
         </ul>
