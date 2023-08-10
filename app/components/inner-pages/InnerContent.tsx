@@ -28,7 +28,7 @@ const InnerContent = ({
     white: "tw-bg-white",
     blue: "tw-content-bg-blue tw-text-white",
     green: "tw-content-bg-green",
-    grey: "tw-bg-brandingGrey-700",
+    grey: "tw-bg-brandingGrey-700 tw-text-white",
   };
 
   const bgClass = bgColorClassMap[variant];
