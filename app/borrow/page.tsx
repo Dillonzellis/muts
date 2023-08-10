@@ -1,5 +1,6 @@
 import HeroImg from "../components/inner-pages/HeroImg"
 import AutoLoans from "./autoLoans/AutoLoans";
+import BoatsCamperMoto from "./boats/BoatsCamperMoto";
 
 const BorrowPage = () => {
   return (
@@ -13,6 +14,7 @@ const BorrowPage = () => {
       />
       {/* Loans */}
       <AutoLoans />
+      <BoatsCamperMoto />
     </div>
   )
 }
