@@ -26,9 +26,9 @@ const Button = ({
 
   return (
     <div
-      className={`${className} ${selfStartClass} tw-rounded-full tw-inline-flex tw-cursor-pointer tw-items-center tw-gap-1 tw-px-8 tw-py-3 tw-capitalize ${bgColor} tw-transition tw-transform hover:tw-scale-105`}>
+      className={`${className} ${selfStartClass} tw-rounded-md tw-inline-flex tw-cursor-pointer tw-items-center tw-gap-1 tw-h-10 tw-px-4 tw-py-2 tw-capitalize ${bgColor} tw-transition tw-transform hover:tw-scale-105`}>
       <div>
-        <a className="tw-font-bold" href={link}>
+        <a className="tw-font-medium" href={link}>
           {btnText}
         </a>
       </div>
