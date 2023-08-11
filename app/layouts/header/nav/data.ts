@@ -123,11 +123,11 @@ export const navItems: NavItem[] = [
         subMenu2: [
           {
             text: "auto loans",
-            link: "/borrow/auto-loans",
+            link: "/borrow/#auto-loans",
           },
           {
             text: "boat, camper & motorcycle loans",
-            link: "/borrow/#boat-camper-motorcycle-loans",
+            link: "/borrow/#boats-camper-motorcycle-loans",
           }
         ]
       },

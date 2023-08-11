@@ -22,6 +22,8 @@ const BoatsCamperMoto = () => {
       </div>
       <List liItems={items} />
       <Button btnText="apply for a loan" link="" />
+      <div>
+      </div>
     </InnerContent>
   )
 }
