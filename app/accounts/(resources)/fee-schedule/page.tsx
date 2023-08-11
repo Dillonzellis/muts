@@ -7,7 +7,7 @@ import PageHeader from "@/app/components/inner-pages/PageHeader";
 
 const FeeSchedule = () => {
   return (
-    <SectionContent sectionName="fee-tables">
+    <SectionContent id="fee-schedule">
       <Container>
         <PageHeader title="Fee Schedule" />
         <div className="tw-flex tw-flex-col tw-gap-8">

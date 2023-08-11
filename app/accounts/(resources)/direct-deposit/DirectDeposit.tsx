@@ -8,7 +8,7 @@ import Disclaimer from "@/app/components/Disclaimer"
 export const DirectDeposit = () => {
   return (
     <InnerContent
-      sectionName="business-checking"
+      id="direct-deposit"
       order="contentFirst"
       variant="white"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/check-reorder.png"

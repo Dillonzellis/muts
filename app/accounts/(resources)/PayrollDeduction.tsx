@@ -6,7 +6,7 @@ import InnerContent from "@/app/components/inner-pages/InnerContent"
 const PayrollDeduction = () => {
   return (
     <InnerContent
-      sectionName="payroll-deuction"
+      id="payroll-deduction"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-519916994.jpg"
       ImgAlt=""
       variant="blue"

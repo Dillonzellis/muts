@@ -9,7 +9,7 @@ import Button from "@/app/components/Button";
 const DebitCards = () => {
   return (
     <InnerContent
-      sectionName="debit-cards"
+      id="debit-cards"
       ImgAlt=""
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1414744533.jpg"
       variant="white"
@@ -21,7 +21,6 @@ const DebitCards = () => {
       </div>
       <List liItems={items} />
       <LinkText label="Don’t recognize a transaction? Complete a Dispute Form " href="" />
-      <Button btnText="wire funds" link="#" />
     </InnerContent>
   )
 }

@@ -71,23 +71,23 @@ export const navItems: NavItem[] = [
         subMenu2: [
           {
             text: "Calculators",
-            link: "#"
+            link: "/accounts/calculators"
           },
           {
             text: "Deposit Rates",
-            link: "",
+            link: "/accounts/deposit-rates",
           },
           {
             text: "Direct Deposit",
-            link: "",
+            link: "/accounts/#direct-deposit",
           },
           {
             text: "Payroll Deduction",
-            link: "",
+            link: "/accounts/#payroll-deduction",
           },
           {
             text: "Fee Schedule",
-            link: "",
+            link: "/accounts/fee-schedule",
           },
           {
             text: "Open Account",
@@ -103,7 +103,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "VISA® Debit Cards w/SecureLock",
-            link: "",
+            link: "/accounts/#debit-cards",
           },
           {
             text: "Wire Funds",

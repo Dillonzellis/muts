@@ -8,7 +8,7 @@ type BgColorVariant = "white" | "blue" | "green" | "grey";
 type OrderVariant = "imageFirst" | "contentFirst";
 
 type InnerContentProps = {
-  sectionName: string;
+  sectionName?: string | undefined;
   id?: string;
   children: React.ReactNode;
   ImgSrc: string;
