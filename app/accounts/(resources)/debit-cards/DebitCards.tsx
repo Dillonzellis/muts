@@ -4,7 +4,6 @@ import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSeconda
 import LinkText from "@/app/components/LinkText";
 import List from "@/app/components/List";
 import items from "./items";
-import Button from "@/app/components/Button";
 
 const DebitCards = () => {
   return (
