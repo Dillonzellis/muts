@@ -14,7 +14,7 @@ const PayrollDeduction = () => {
     >
       <ContentHeading title="Payroll Deduction" />
       <ContentBody>
-        If you are an employee of Southern Company Gas, you can establish payroll deduction at Mutual Savings Credit Union to have funds automatically deducted from your paycheck and deposited into your savings account or checking account or applied to make loan payments. It's an easy way to save or to ensure that you'll never miss a loan payment.
+        If you are an employee of Southern Company Gas, you can establish payroll deduction at Mutual Savings Credit Union to have funds automatically deducted from your paycheck and deposited into your savings account or checking account or applied to make loan payments. It&apos;s an easy way to save or to ensure that you&apos;ll never miss a loan payment.
       </ContentBody>
       <Button btnText="Get started by contact us today!" link="#" />
     </InnerContent >
