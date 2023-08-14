@@ -1,7 +1,8 @@
 import HeroImg from "../components/inner-pages/HeroImg"
+import AdditionalLoans from "./AdditionalLoans";
 import AutoLoans from "./autoLoans/AutoLoans";
-import HomeLoans from "./autoLoans/home-loans/HomeLoans";
 import BoatsCamperMoto from "./boats/BoatsCamperMoto";
+import HomeLoans from "./home-loans/HomeLoans";
 
 const BorrowPage = () => {
   return (
@@ -17,6 +18,7 @@ const BorrowPage = () => {
       <AutoLoans />
       <BoatsCamperMoto />
       <HomeLoans />
+      <AdditionalLoans />
     </div>
   )
 }

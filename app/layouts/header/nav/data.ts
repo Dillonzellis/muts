@@ -128,7 +128,19 @@ export const navItems: NavItem[] = [
           {
             text: "boat, camper & motorcycle loans",
             link: "/borrow/#boats-camper-motorcycle-loans",
-          }
+          },
+          {
+            text: "Home Loans",
+            link: "/borrow/#home-loans",
+          },
+          {
+            text: "Additional Consumer Loans",
+            link: "/borrow/#additional-loans",
+          },
+          {
+            text: "VISA® Rewards Platinum Credit Cards",
+            link: "/borrow/#credit-cards",
+          },
         ]
       },
       {
