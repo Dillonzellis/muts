@@ -14,8 +14,10 @@ const BusinessChecking = () => {
       sectionName="business-checking"
       order="contentFirst"
       variant="grey"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1398473177.jpg"
-      ImgAlt="savings account">
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1192858431.jpg"
+      ImgAlt="savings account"
+      vertical
+    >
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Business Checking" />
       </div>

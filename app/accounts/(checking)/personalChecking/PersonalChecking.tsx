@@ -13,8 +13,10 @@ const PersonalChecking = () => {
       sectionName="personal-checking"
       order="imageFirst"
       variant="white"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1349990264.jpg"
-      ImgAlt="savings account">
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1429700295.jpg"
+      ImgAlt="savings account"
+      vertical
+    >
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Personal Checking" />
       </div>

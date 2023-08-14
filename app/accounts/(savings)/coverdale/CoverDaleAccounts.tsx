@@ -14,8 +14,10 @@ const CoverdellAccounts = () => {
       sectionName="coverdale"
       order="contentFirst"
       variant="blue"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1440151012.jpg"
-      ImgAlt="savings account">
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1389552770.jpg"
+      ImgAlt="savings account"
+      vertical
+    >
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Coverdell Savings Accounts" />
       </div>
