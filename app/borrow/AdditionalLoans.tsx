@@ -8,7 +8,7 @@ const AdditionalLoans = () => {
     <InnerContent
       id="additional-loans"
       order="contentFirst"
-      ImgSrc=""
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1272953941.jpg"
       ImgAlt=""
       variant="grey"
     >
@@ -17,6 +17,7 @@ const AdditionalLoans = () => {
         <ContentHeading title="Additional Consumer Loans" />
         <ContentSecondaryHeading italic title="Loans for just about any reason!" />
       </ContentHeaderWrapper>
+      <div>Accordion placeholder</div>
     </InnerContent>
 
   )
