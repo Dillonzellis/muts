@@ -11,7 +11,7 @@ import Disclaimer from "@/app/components/Disclaimer";
 const BusinessChecking = () => {
   return (
     <InnerContent
-      sectionName="business-checking"
+      id="business-checking"
       order="contentFirst"
       variant="grey"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1192858431.jpg"

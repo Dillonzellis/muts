@@ -10,7 +10,7 @@ import Disclaimer from "@/app/components/Disclaimer";
 const PersonalChecking = () => {
   return (
     <InnerContent
-      sectionName="personal-checking"
+      id="personal-checking"
       order="imageFirst"
       variant="white"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1429700295.jpg"

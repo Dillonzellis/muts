@@ -19,11 +19,11 @@ export const navItems: NavItem[] = [
   },
   {
     text: "accounts",
-    link: "./accounts",
+    link: "",
     subMenu: [
       {
         text: "Savings",
-        link: "#",
+        link: "",
         subMenu2: [
           {
             text: "Regular Savings",
@@ -57,11 +57,11 @@ export const navItems: NavItem[] = [
         subMenu2: [
           {
             text: "Personal Checking",
-            link: "#"
+            link: "/accounts/#personal-checking"
           },
           {
             text: "Business Checking",
-            link: "",
+            link: "/accounts/#business-checking",
           },
         ]
       },
@@ -144,18 +144,46 @@ export const navItems: NavItem[] = [
         ]
       },
       {
-        text: "Checking",
+        text: "Lending Resources",
         link: "#",
         subMenu2: [
           {
-            text: "checking 1",
-            link: "#"
+            text: "Apply for a Loan",
+            link: ""
+          },
+          {
+            text: "Loan Rates",
+            link: ""
+          },
+          {
+            text: "Calculators",
+            link: ""
+          },
+          {
+            text: "Car Buying Service",
+            link: ""
+          },
+          {
+            text: "Credit Card Management",
+            link: ""
+          },
+          {
+            text: "GAP Coverage",
+            link: ""
+          },
+          {
+            text: "Payment Protection",
+            link: ""
+          },
+          {
+            text: "MBI/Insurance",
+            link: ""
+          },
+          {
+            text: "ScoreCard™ REWARDS",
+            link: ""
           },
         ]
-      },
-      {
-        text: "Account Resources",
-        link: "#",
       },
     ],
   },
