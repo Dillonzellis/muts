@@ -5,6 +5,7 @@ import BoatsCamperMoto from "./boats/BoatsCamperMoto";
 import CreditCards from "./credit-cards/CreditCards";
 import Gap from "./gap/Gap";
 import HomeLoans from "./home-loans/HomeLoans";
+import PaymentProtection from "./payment-protection/PaymentProtection";
 
 const BorrowPage = () => {
   return (
@@ -24,6 +25,7 @@ const BorrowPage = () => {
       <CreditCards />
       {/* Lending Resources */}
       <Gap />
+      <PaymentProtection />
     </div>
   )
 }

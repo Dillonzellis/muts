@@ -173,7 +173,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Payment Protection",
-            link: ""
+            link: "/borrow/#payment-protection"
           },
           {
             text: "MBI/Insurance",
