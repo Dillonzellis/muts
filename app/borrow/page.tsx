@@ -3,6 +3,7 @@ import AdditionalLoans from "./AdditionalLoans";
 import AutoLoans from "./autoLoans/AutoLoans";
 import BoatsCamperMoto from "./boats/BoatsCamperMoto";
 import CreditCards from "./credit-cards/CreditCards";
+import Gap from "./gap/Gap";
 import HomeLoans from "./home-loans/HomeLoans";
 
 const BorrowPage = () => {
@@ -21,6 +22,8 @@ const BorrowPage = () => {
       <HomeLoans />
       <AdditionalLoans />
       <CreditCards />
+      {/* Lending Resources */}
+      <Gap />
     </div>
   )
 }

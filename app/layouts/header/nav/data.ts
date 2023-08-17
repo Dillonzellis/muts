@@ -169,7 +169,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "GAP Coverage",
-            link: ""
+            link: "/borrow/#gap"
           },
           {
             text: "Payment Protection",
