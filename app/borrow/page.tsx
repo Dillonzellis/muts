@@ -5,6 +5,7 @@ import BoatsCamperMoto from "./boats/BoatsCamperMoto";
 import CreditCards from "./credit-cards/CreditCards";
 import Gap from "./gap/Gap";
 import HomeLoans from "./home-loans/HomeLoans";
+import MBI from "./mbi-insurance/MBI";
 import PaymentProtection from "./payment-protection/PaymentProtection";
 
 const BorrowPage = () => {
@@ -26,6 +27,7 @@ const BorrowPage = () => {
       {/* Lending Resources */}
       <Gap />
       <PaymentProtection />
+      <MBI />
     </div>
   )
 }

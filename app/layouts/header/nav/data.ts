@@ -177,11 +177,11 @@ export const navItems: NavItem[] = [
           },
           {
             text: "MBI/Insurance",
-            link: ""
+            link: "/borrow/#mbi"
           },
           {
             text: "ScoreCard™ REWARDS",
-            link: ""
+            link: "/borrow/#score-card"
           },
         ]
       },
