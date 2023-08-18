@@ -1,3 +1,5 @@
+import SubMenu2 from "./SubMenu2";
+
 export type SubMenu = {
   text: string;
   link: string;
@@ -157,7 +159,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Calculators",
-            link: ""
+            link: "/accounts/calculators"
           },
           {
             text: "Car Buying Service",
@@ -190,6 +192,46 @@ export const navItems: NavItem[] = [
   {
     text: "solutions",
     link: "/solutions",
+    subMenu: [
+      {
+        text: "Solutions",
+        link: "",
+        subMenu2: [
+          {
+            text: "Remote Banking",
+            link: ""
+          },
+          {
+            text: "Calculators",
+            link: "/accounts/calculators"
+          },
+          {
+            text: "Fee Schedule",
+            link: "/accounts/fee-schedule"
+          },
+          {
+            text: "Insurance",
+            link: ""
+          },
+          {
+            text: "VISA",
+            link: ""
+          },
+          {
+            text: "Money Orders",
+            link: ""
+          },
+          {
+            text: "VISA® Gift Cards",
+            link: ""
+          },
+          {
+            text: "Report I.D. Theft",
+            link: ""
+          },
+        ]
+      },
+    ]
   },
   {
     text: "rates",
