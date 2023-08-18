@@ -7,6 +7,7 @@ import Gap from "./gap/Gap";
 import HomeLoans from "./home-loans/HomeLoans";
 import MBI from "./mbi-insurance/MBI";
 import PaymentProtection from "./payment-protection/PaymentProtection";
+import ScoreCard from "./score-card/ScoreCard";
 
 const BorrowPage = () => {
   return (
@@ -28,6 +29,7 @@ const BorrowPage = () => {
       <Gap />
       <PaymentProtection />
       <MBI />
+      <ScoreCard />
     </div>
   )
 }
