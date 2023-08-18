@@ -1,9 +1,8 @@
-
 import SubMenu2 from "./SubMenu2";
 
 export type SubMenu = {
   text: string;
-  link?: string;
+  link: string;
   subMenu2?: SubMenu[];
 };
 
@@ -195,30 +194,13 @@ export const navItems: NavItem[] = [
     link: "/solutions",
     subMenu: [
       {
-        text: "Remote Banking",
+        text: "Solutions",
         link: "",
         subMenu2: [
           {
-            text: "Online & Mobile Banking",
+            text: "Remote Banking",
             link: ""
           },
-          {
-            text: "ATM Locator",
-            link: ""
-          },
-          {
-            text: "Shared Branching",
-            link: ""
-          },
-          {
-            text: "Audio Response",
-            link: ""
-          },
-        ],
-      },
-      {
-        text: "Solutions",
-        subMenu2: [
           {
             text: "Calculators",
             link: "/accounts/calculators"
@@ -248,8 +230,8 @@ export const navItems: NavItem[] = [
             link: ""
           },
         ]
-      }
-    ],
+      },
+    ]
   },
   {
     text: "rates",
