@@ -223,7 +223,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Report I.D. Theft",
-            link: ""
+            link: "/solutions/#id-theft"
           },
         ]
       },
