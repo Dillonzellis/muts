@@ -199,7 +199,7 @@ export const navItems: NavItem[] = [
         subMenu2: [
           {
             text: "Remote Banking",
-            link: ""
+            link: "/solutions/#remote-banking"
           },
           {
             text: "Calculators",

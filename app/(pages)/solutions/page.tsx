@@ -1,4 +1,5 @@
 import HeroImg from "@/app/components/inner-pages/HeroImg"
+import RemoteBanking from "./remote-banking/RemoteBanking";
 
 const SolutionsPage = () => {
   return (
@@ -9,6 +10,7 @@ const SolutionsPage = () => {
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1435234222.jpg"
         imgAlt=""
       />
+      <RemoteBanking />
     </div>
   )
 }
