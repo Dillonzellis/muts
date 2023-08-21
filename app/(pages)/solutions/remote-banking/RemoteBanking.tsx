@@ -1,5 +1,3 @@
-
-import Button from "@/app/components/Button";
 import { remoteItems } from "./items";
 import List from "@/app/components/List";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";

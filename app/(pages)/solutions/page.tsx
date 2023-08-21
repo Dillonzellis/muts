@@ -1,5 +1,6 @@
 import HeroImg from "@/app/components/inner-pages/HeroImg"
 import RemoteBanking from "./remote-banking/RemoteBanking";
+import IdTheft from "./id-theft/IdTheft";
 
 const SolutionsPage = () => {
   return (
@@ -11,6 +12,7 @@ const SolutionsPage = () => {
         imgAlt=""
       />
       <RemoteBanking />
+      <IdTheft />
     </div>
   )
 }
