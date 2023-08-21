@@ -1,4 +1,4 @@
-import HeroImg from "../components/inner-pages/HeroImg"
+import HeroImg from "@/app/components/inner-pages/HeroImg"
 import AdditionalLoans from "./AdditionalLoans";
 import AutoLoans from "./autoLoans/AutoLoans";
 import BoatsCamperMoto from "./boats/BoatsCamperMoto";

@@ -1,7 +1,7 @@
-import Hero from "./home/Hero";
-import JoinCTA from "./home/JoinCTA";
-import CardsCTA from "./home/cardsCTA/CardsCTA";
-import ServicesCTA from "./home/services/ServicesCTA";
+import Hero from "@/app/(pages)/home/Hero";
+import JoinCTA from "@/app/(pages)/home/JoinCTA";
+import CardsCTA from "@/app/(pages)/home/cardsCTA/CardsCTA";
+import ServicesCTA from "@/app/(pages)/home/services/ServicesCTA";
 
 export default function Home() {
   return (

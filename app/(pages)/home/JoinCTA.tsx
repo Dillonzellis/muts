@@ -1,5 +1,5 @@
-import Container from "../layouts/Container";
-import ContentSection from "../layouts/ContentSection";
+import Container from "@/app/layouts/Container";
+import ContentSection from "@/app/layouts/ContentSection";
 
 const JoinCTA = () => {
   return (

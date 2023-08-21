@@ -1,5 +1,5 @@
-import Container from "../layouts/Container";
-import Button from "../components/Button";
+import Container from "@/app/layouts/Container";
+import Button from "@/app/components/Button";
 
 const Hero = () => {
   return (

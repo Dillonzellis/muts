@@ -1,4 +1,4 @@
-import HeroImg from "../components/inner-pages/HeroImg";
+import HeroImg from "@/app/components/inner-pages/HeroImg";
 import DebitCards from "./(resources)/debit-cards/DebitCards";
 import RegSavings from "./(savings)/regSavings/RegSavings";
 import CoverdellAccounts from "./(savings)/coverdale/CoverDaleAccounts";

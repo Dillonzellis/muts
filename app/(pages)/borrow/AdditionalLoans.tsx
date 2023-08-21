@@ -1,7 +1,7 @@
-import InnerContent from "../components/inner-pages/InnerContent"
-import ContentHeaderWrapper from "../components/inner-pages/ContentHeaderWrapper"
-import ContentHeading from "../components/inner-pages/ContentHeading"
-import ContentSecondaryHeading from "../components/inner-pages/ContentSecondaryHeading"
+import InnerContent from "@/app/components/inner-pages/InnerContent"
+import ContentHeaderWrapper from "@/app/components/inner-pages/ContentHeaderWrapper"
+import ContentHeading from "@/app/components/inner-pages/ContentHeading"
+import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading"
 
 const AdditionalLoans = () => {
   return (
