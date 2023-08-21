@@ -2,7 +2,7 @@ import Container from "@/app/layouts/Container";
 
 type HeroImgProps = {
   title: string;
-  desc: string;
+  desc?: string;
   desc2?: string;
   imgSrc: string;
   imgAlt: string;
