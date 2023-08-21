@@ -211,11 +211,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Insurance",
-            link: ""
-          },
-          {
-            text: "VISA",
-            link: ""
+            link: "https://www.trustage.com/add-insurance?orgIdentifier=000000003000&marketingCampaignCode=CBAD000003&utm_source=000000003000&utm_medium=CULK_Banner&utm_campaign=CBAD000003&utm_content=CC000300"
           },
           {
             text: "Money Orders",

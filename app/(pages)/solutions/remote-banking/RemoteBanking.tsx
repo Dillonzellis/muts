@@ -35,10 +35,10 @@ const RemoteBanking = () => {
       </div>
       <div className="tw-flex tw-items-center tw-justify-center tw-gap-4">
         <a href="">
-          <img className="tw-w-full tw-max-w-[167px] tw-max-h-[49px]" src="http://dev2.growthbydesign.org/wp-content/uploads/app-store-logo.png" />
+          <img className="tw-w-full tw-max-w-[167px]" src="http://dev2.growthbydesign.org/wp-content/uploads/app-store-logo.png" />
         </a>
         <a href="">
-          <img src="http://dev2.growthbydesign.org/wp-content/uploads/google_play.png" />
+          <img className="tw-w-full tw-max-w-[167px] tw-rounded-2xl" src="http://dev2.growthbydesign.org/wp-content/uploads/Google-Play-Emblema.png" />
         </a>
       </div>
       <div>
