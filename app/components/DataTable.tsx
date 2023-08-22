@@ -6,7 +6,7 @@ type TableHeader = {
 };
 
 type TableRowData = {
-  [key: string]: string;
+  [key: string]: string | undefined;
   colSpanVariant?: string;
 };
 
@@ -59,7 +59,7 @@ const DataTable: React.FC<DataTableProps> = ({ headers, data }) => {
                         key={cellIndex}
                         className={`${textAlignClass} tw-px-6 tw-py-4 ${widthClass}`}
                         colSpan={row.colSpanVariant === key ? 2 : 1}>
-                        {value.startsWith('<a') ?
+                        {value && value.startsWith('<a') ?
                           <span dangerouslySetInnerHTML={{ __html: value }} /> :
                           value
                         }
