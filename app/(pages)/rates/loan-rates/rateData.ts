@@ -2,7 +2,7 @@
 export const loanHeaders = [
   { key: 'loanType', label: 'Loan Type', className: 'tw-rounded-tl-xl' },
   { key: 'periodicRates', label: 'Periodic Rates' },
-  { key: 'apr', label: 'Annual Percentage Rates' },
+  { key: 'apr', label: 'Annual Percentage Rates', className: 'tw-rounded-tr-xl' },
 ];
 
 
@@ -34,23 +34,18 @@ export const loanData = [
   },
   {
     loanType: 'Land Loans',
-    periodicRates: 'Contact us for rates',
-    apr: '',
+    periodicRates: '<a href="https://cu.memberfirst.com/mutualsavingscu">Contact us for rates</a>',
+    colSpanVariant: 'periodicRates'
   },
   {
-    loanType: '',
-    periodicRates: '',
-    apr: '',
+    loanType: 'Home Equity Line of Credit (HELOCS) Loans',
+    periodicRates: 'Current Prime Rate with a current floor of 8.00%',
+    colSpanVariant: 'periodicRates'
   },
   {
-    loanType: '',
-    periodicRates: '',
-    apr: '',
-  },
-  {
-    loanType: '',
-    periodicRates: '',
-    apr: '',
+    loanType: 'Mortgages Loans',
+    periodicRates: '<a href="">Contact Member First Mortgage</a><br><a href="">770-579-1000</a>',
+    colSpanVariant: 'periodicRates'
   },
 ];
 
