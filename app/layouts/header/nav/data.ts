@@ -2,7 +2,7 @@ import SubMenu2 from "./SubMenu2";
 
 export type SubMenu = {
   text: string;
-  link: string;
+  link?: string;
   subMenu2?: SubMenu[];
 };
 
@@ -77,7 +77,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Deposit Rates",
-            link: "/accounts/deposit-rates",
+            link: "/rates/deposit-rates",
           },
           {
             text: "Direct Deposit",
@@ -232,6 +232,21 @@ export const navItems: NavItem[] = [
   {
     text: "rates",
     link: "/rates",
+    subMenu: [
+      {
+        text: 'Rates',
+        subMenu2: [
+          {
+            text: 'Deposit Rates',
+            link: "/rates/deposit-rates"
+          },
+          {
+            text: 'Loan Rates',
+            link: "/rates/loan-rates",
+          },
+        ]
+      }
+    ]
   },
   {
     text: "about us",
