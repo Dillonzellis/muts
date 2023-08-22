@@ -37,7 +37,7 @@ const DisclosuresPage = () => {
           <div className="tw-pb-8">
             <AuxWrapper>
               <AuxHeader>Ensuring transparency and clarity in all our financial interactions.</AuxHeader>
-              <div>At Mutual Savings Credit Union, we believe in maintaining the trust and confidence of our members through complete transparency. Our disclosures are designed to provide clear and comprehensive information about our products, services, and policies. Ensuring you are well-informed is not just a regulatory requirement for us—it's a commitment to uphold the values we stand for in every transaction."</div>
+              <div>At Mutual Savings Credit Union, we believe in maintaining the trust and confidence of our members through complete transparency. Our disclosures are designed to provide clear and comprehensive information about our products, services, and policies. Ensuring you are well-informed is not just a regulatory requirement for us—it&apos;s a commitment to uphold the values we stand for in every transaction.</div>
             </AuxWrapper>
           </div>
           <div className="tw-flex tw-flex-col tw-gap-4">

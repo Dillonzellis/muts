@@ -78,7 +78,7 @@ const FormsPage = () => {
           <div>
             <AuxWrapper>
               <AuxHeader>Streamlined access to essential documents for your banking needs</AuxHeader>
-              <div>At Mutual Savings Credit Union, we make it easy for you to open a savings account, apply for a VISA® credit card, set up a direct deposit or use various other services. Just fill out an application and mail or fax it to the credit union. It's fast and easy. We are also happy to send you any additional information that you might want on our products and services. Simply fill out a send more info form online and send it to us with a click of your mouse.</div>
+              <div>At Mutual Savings Credit Union, we make it easy for you to open a savings account, apply for a VISA® credit card, set up a direct deposit or use various other services. Just fill out an application and mail or fax it to the credit union. It&apos;s fast and easy. We are also happy to send you any additional information that you might want on our products and services. Simply fill out a send more info form online and send it to us with a click of your mouse.</div>
             </AuxWrapper>
           </div>
           <div className="tw-grid md:tw-grid-cols-3 lg:tw-grid-cols-4 tw-pt-8 tw-gap-4">
