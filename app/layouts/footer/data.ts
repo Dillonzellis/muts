@@ -53,60 +53,6 @@ export const disclosures = [
   },
 ];
 
-export const forms = [
-  {
-    linkText: "ACH Origination",
-    href: "#",
-  },
-  {
-    linkText: "Address Change Form",
-    href: "#",
-  },
-  {
-    linkText: "Loan Application",
-    href: "#",
-  },
-  {
-    linkText: "Membership Application",
-    href: "#",
-  },
-  {
-    linkText: "Payroll Deduction Form",
-    href: "#",
-  },
-  {
-    linkText: "Report Lost/Stolen Card",
-    href: "#",
-  },
-  {
-    linkText: "Send More Info Form",
-    href: "#",
-  },
-  {
-    linkText: "Stop Payment Form",
-    href: "#",
-  },
-  {
-    linkText: "Wire Transfer Form",
-    href: "#",
-  },
-  {
-    linkText: "Visa® Credit Card Application",
-    href: "#",
-  },
-  {
-    linkText: "Visa® Debit Card Application",
-    href: "#",
-  },
-  {
-    linkText: "Visa® Debit Card Dispute Form",
-    href: "#",
-  },
-  {
-    linkText: "Visa® Credit Card Dispute Form",
-    href: "#",
-  },
-];
 
 export const usefulLinks = [
   {
@@ -115,7 +61,7 @@ export const usefulLinks = [
   },
   {
     linkText: "Current News",
-    href: "#",
+    href: "/current-news",
   },
   {
     linkText: "Disclosures",
@@ -123,7 +69,7 @@ export const usefulLinks = [
   },
   {
     linkText: "Forms",
-    href: "#",
+    href: "/forms",
   },
   {
     linkText: "Privacy Policy",

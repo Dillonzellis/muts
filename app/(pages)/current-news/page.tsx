@@ -7,22 +7,8 @@ import TwoCol from "@/app/layouts/TwoCol";
 import List from "@/app/components/List";
 import Disclaimer from "@/app/components/Disclaimer";
 import Button from "@/app/components/Button";
+import { AuxHeader, AuxWrapper } from "@/app/components/AuxHeaders"
 
-type NewsHeaderProps = {
-  children: React.ReactNode
-}
-
-type NewsWrapperProps = {
-  children: React.ReactNode
-}
-
-const NewsHeader = ({ children }: NewsHeaderProps) => {
-  return <div className="tw-text-2xl tw-text-brandingBlue-400 tw-font-semibold">{children}</div>
-}
-
-const NewsWrapper = ({ children }: NewsWrapperProps) => {
-  return <div className="tw-space-y-4">{children}</div>
-}
 
 
 const liItems: React.ReactNode[] = [
@@ -34,7 +20,7 @@ const liItems: React.ReactNode[] = [
   <React.Fragment key="6">Cannot be 1 of the previous 5 passwords.</React.Fragment>,
 ];
 
-const BorrowPage = () => {
+const CurrentNewsPage = () => {
   return (
     <div>
       <HeroImg
@@ -46,32 +32,32 @@ const BorrowPage = () => {
         <SectionContent>
           <div className="tw-space-y-12">
             <TwoCol center="tw-items-base">
-              <NewsWrapper>
-                <NewsHeader>Visa Credit & Debit Card Alerts</NewsHeader>
+              <AuxWrapper>
+                <AuxHeader>Visa Credit & Debit Card Alerts</AuxHeader>
                 <div>New fraud protections are now available for your MSCU Visa credit and debit cards. Get e-mail and/or text alerts based on dollar ($) limits and/or international activity and/or online/phone (card not present) transactions. Go to  <LinkText label="www.visa.com/purchasealerts" href="www.visa.com/purchasealerts" /> to Enroll your MSCU cards.</div>
-              </NewsWrapper>
-              <NewsWrapper>
-                <NewsHeader>ScoreCard Rewards Now Includes Cash Back! & Debit Card Alerts</NewsHeader>
+              </AuxWrapper>
+              <AuxWrapper>
+                <AuxHeader>ScoreCard Rewards Now Includes Cash Back! & Debit Card Alerts</AuxHeader>
                 <div>Cash Back has been added as one of your reward options for your MSCU Visa credit card. Browse the rewards store at <LinkText label="www.scorecardrewards.com." href="www.scorecardrewards.com." /></div>
-              </NewsWrapper>
+              </AuxWrapper>
             </TwoCol>
-            <NewsWrapper>
-              <NewsHeader>New internet banking login credentials as a result of the system update.</NewsHeader>
+            <AuxWrapper>
+              <AuxHeader>New internet banking login credentials as a result of the system update.</AuxHeader>
               <div>User Passwords must have the following characteristics:</div>
               <List liItems={liItems} />
               <Disclaimer text="NOTE: Passwords are case-sensitive." />
-            </NewsWrapper>
+            </AuxWrapper>
             <TwoCol center="tw-items-base">
-              <NewsWrapper>
-                <NewsHeader>Direct Deposit Limits:</NewsHeader>
+              <AuxWrapper>
+                <AuxHeader>Direct Deposit Limits:</AuxHeader>
                 <div>In an effort to combat fraud and identity theft, new IRS procedures effective January 2015 will limit the number of refunds electronically deposited into a single financial account or pre-paid debit card to three.</div>
                 <Button btnText="Learn more" link="https://www.irs.gov/refunds/direct-deposit-limits" />
-              </NewsWrapper>
-              <NewsWrapper>
-                <NewsHeader>Equifax Security Breach:</NewsHeader>
+              </AuxWrapper>
+              <AuxWrapper>
+                <AuxHeader>Equifax Security Breach:</AuxHeader>
                 <div>On Sept. 7, 2017 an Equifax Inc. press release announced a cybersecurity incident potentially impacting approximately 143 million U.S. consumers</div>
                 <Button btnText="Learn more" link="http://dev2.growthbydesign.org/wp-content/uploads/EquifaxSecurityBreach9.13.17.pdf" />
-              </NewsWrapper>
+              </AuxWrapper>
             </TwoCol>
           </div>
         </SectionContent>
@@ -80,4 +66,4 @@ const BorrowPage = () => {
   )
 }
 
-export default BorrowPage;
+export default CurrentNewsPage;
