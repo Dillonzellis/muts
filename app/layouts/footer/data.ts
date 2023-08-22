@@ -65,7 +65,7 @@ export const usefulLinks = [
   },
   {
     linkText: "Disclosures",
-    href: "#",
+    href: "/disclosures",
   },
   {
     linkText: "Forms",
