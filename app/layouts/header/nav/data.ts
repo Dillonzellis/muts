@@ -155,7 +155,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Loan Rates",
-            link: ""
+            link: "/rates/loan-rates"
           },
           {
             text: "Calculators",
