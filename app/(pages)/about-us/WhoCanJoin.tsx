@@ -61,7 +61,7 @@ const WhoCanJoin = () => {
           <ContentHeading title="Who Can Join" />
           <ContentSecondaryHeading italic title="Membership in Mutual Savings Credit Union encompasses any employee or retiree (and immediate family members) of Southern Company Gas, its subsidiaries, affiliates, and other qualified company contractors." />
         </div>
-        <div className="tw-grid tw-grid-cols-3">
+        <div className="tw-grid tw-gap-4 md:tw-grid-cols-2 lg:tw-grid-cols-3">
           <ListWrapper>
             <ContentTertHeader label="Southern Company Gas" />
             <List liItems={liItems} />
@@ -70,7 +70,9 @@ const WhoCanJoin = () => {
             <ContentTertHeader label="Contractors" />
             <List liItems={liItems2} />
           </ListWrapper>
-          <ContentImg ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1440750455.jpg" ImgAlt="" />
+          <div className="tw-hidden lg:tw-block">
+            <ContentImg ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1440750455.jpg" ImgAlt="" />
+          </div>
         </div>
         <Button btnText="Join the credit union" link="" />
       </div>
