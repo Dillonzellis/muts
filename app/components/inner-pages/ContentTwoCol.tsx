@@ -4,7 +4,7 @@ import Container from "@/app/layouts/Container";
 import SectionContent from "./SectionContent";
 
 type ContentTwoColProps = {
-  sectionName: string;
+  sectionName?: string;
   id?: string;
   children: ReactNode;
   variant: BgColorVariant;
