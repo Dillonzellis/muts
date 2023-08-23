@@ -53,7 +53,7 @@ const liItems2 = [
 const WhoCanJoin = () => {
   return (
     <ContentTwoCol
-      id=""
+      id="who-can-join"
       variant="blue"
     >
       <div className="tw-space-y-8">
