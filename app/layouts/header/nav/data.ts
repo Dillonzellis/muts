@@ -8,7 +8,7 @@ export type SubMenu = {
 
 export type NavItem = {
   text: string;
-  link: string;
+  link?: string;
   className?: string;
   subMenu?: SubMenu[];
 };
@@ -231,7 +231,6 @@ export const navItems: NavItem[] = [
   },
   {
     text: "rates",
-    link: "/rates",
     subMenu: [
       {
         text: 'Rates',
@@ -250,6 +249,28 @@ export const navItems: NavItem[] = [
   },
   {
     text: "about us",
-    link: "/about-us",
+    subMenu: [
+      {
+        text: 'About Us',
+        subMenu2: [
+          {
+            text: "our story",
+            link: '/about-us/#our-story'
+          },
+          {
+            text: "Who Can Join",
+            link: '/about-us/#who-can-join'
+          },
+          {
+            text: "Contact Us",
+            link: '/about-us/#contact-us'
+          },
+          {
+            text: "Hours & Holidays",
+            link: '/about-us/#hours'
+          },
+        ]
+      }
+    ]
   },
 ];
