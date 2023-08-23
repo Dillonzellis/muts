@@ -1,6 +1,7 @@
 import HeroImg from "@/app/components/inner-pages/HeroImg"
 import OurStory from "./OurStory";
 import WhoCanJoin from "./WhoCanJoin";
+import ContactUs from "./ContactUs";
 
 const AboutPage = () => {
   return (
@@ -14,6 +15,7 @@ const AboutPage = () => {
       />
       <OurStory />
       <WhoCanJoin />
+      <ContactUs />
     </div>
   )
 }

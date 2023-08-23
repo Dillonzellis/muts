@@ -1,25 +1,19 @@
-
-
 import React from "react";
 import Button from "@/app/components/Button";
 import List from "@/app/components/List";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
-import InnerContent from "@/app/components/inner-pages/InnerContent"
 import ContentTertHeader from "@/app/components/inner-pages/ContentTertHeader";
 import ContentTwoCol from "@/app/components/inner-pages/ContentTwoCol";
-import TwoCol from "@/app/layouts/TwoCol";
 import ContentImg from "@/app/components/inner-pages/ContentImg";
 
 type ListWrapperProps = {
   children: React.ReactNode;
 }
 
-
 const ListWrapper = ({ children }: ListWrapperProps) => {
   return <div className="tw-space-y-2">{children}</div>
 }
-
 
 const liItems = [
   <React.Fragment key="1">Southern Company Gas</React.Fragment>,
@@ -37,7 +31,6 @@ const liItems = [
   <React.Fragment key="12">Virginia Natural Gas</React.Fragment>,
 ]
 
-
 const liItems2 = [
   <React.Fragment key="1">Benton Georgia Inc.</React.Fragment>,
   <React.Fragment key="2">Hiwassee Construction Company</React.Fragment>,
@@ -48,7 +41,6 @@ const liItems2 = [
   <React.Fragment key="7">Utilities Protection Center Inc</React.Fragment>,
   <React.Fragment key="8">Gooch Trucking</React.Fragment>,
 ]
-
 
 const WhoCanJoin = () => {
   return (
