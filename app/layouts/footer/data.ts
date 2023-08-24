@@ -77,6 +77,6 @@ export const usefulLinks = [
   },
   {
     linkText: "Contact Us",
-    href: "#",
+    href: "/about-us/#contact-us",
   },
 ];

@@ -267,7 +267,7 @@ export const navItems: NavItem[] = [
           },
           {
             text: "Hours & Holidays",
-            link: '/about-us/#hours'
+            link: '/about-us/#holiday-hours'
           },
         ]
       }
