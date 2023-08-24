@@ -12,9 +12,11 @@ module.exports = {
         brandingBlue: {
           400: "#005397",
           300: "#3695e2",
+          100: "#F2F5F7"
         },
         brandingGreen: {
           400: "#69b338",
+          100: "#ebf6e4"
         },
         brandingGrey: {
           700: "#202020",
