@@ -1,5 +1,5 @@
 import Modal from "@/app/components/Modal";
-import HeroImg from "@/app/components/inner-pages/HeroImg"
+import HeroImg from "@/app/components/inner-pages/HeroImg";
 import SectionContent from "@/app/components/inner-pages/SectionContent";
 import Container from "@/app/layouts/Container";
 
@@ -16,13 +16,13 @@ const TestingPage = () => {
         <SectionContent>
           <Modal
             modalClass="test"
-            cancelLink=""
-            continueLink=""
+            id="30"
+            continueLink="https://www.google.com"
           />
         </SectionContent>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default TestingPage; 
+export default TestingPage;
