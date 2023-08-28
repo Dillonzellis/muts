@@ -7,18 +7,24 @@ import { useState } from "react";
 import Container from "../Container";
 import NavLink from "./nav/NavLink";
 import { navItems } from "./nav/data";
+import Login from "@/app/components/Login";
 
 const MainBar = () => {
   const [toggle, setToggle] = useState(false);
+  const [loginVisibility, setLoginVisibility] = useState(false);
 
   const handleNavToggle = () => {
     setToggle(!toggle);
   };
 
+  const handleonClick = () => {
+    setLoginVisibility(!loginVisibility);
+  };
+
   return (
     <div className="main-bar tw-bg-white">
       <Container>
-        <div className="tw-flex tw-items-center tw-justify-between tw-gap-4 tw-py-2">
+        <div className="tw-relative tw-flex tw-items-center tw-justify-between tw-gap-4 tw-py-2">
           <a href="/">
             <img
               src="http://dev2.growthbydesign.org/wp-content/uploads/Logo.png"
@@ -39,19 +45,25 @@ const MainBar = () => {
             />
           )}
 
-          <Button
-            btnText="LOGIN"
-            link="#"
-            className="tw-hidden tw-font-bold md:tw-flex"
-            arrow={true}
-            selfStart={false}
-          />
+          <div className="">
+            <Button
+              btnText="LOGIN"
+              link="#"
+              className="tw-hidden tw-font-bold md:tw-flex"
+              arrow={true}
+              selfStart={false}
+              onClick={handleonClick}
+            />
+            {loginVisibility && <Login isVisible={loginVisibility} />}
+          </div>
         </div>
       </Container>
       <nav className="tw-relative">
         <ul
-          className={`tw-bg-brandingBlue-400 tw-text-white tw-py-4 tw-w-full tw-z-50 tw-text-center tw-justify-center tw-gap-24 md:tw-flex tw-absolute md:tw-relative tw-w-f ${!toggle ? "tw-hidden" : ""
-            }`}>
+          className={`tw-bg-brandingBlue-400 tw-text-white tw-py-4 tw-w-full tw-z-50 tw-text-center tw-justify-center tw-gap-24 md:tw-flex tw-absolute md:tw-relative tw-w-f ${
+            !toggle ? "tw-hidden" : ""
+          }`}
+        >
           {navItems.map((item, idx) => (
             <NavLink
               key={idx}

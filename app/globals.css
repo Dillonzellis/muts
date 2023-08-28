@@ -12,6 +12,22 @@
 /*   line-height: unset; */
 /* } */
 
+.login-de {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition:
+    opacity 0.3s,
+    transform 0.3s,
+    visibility 0.3s;
+}
+
+.login-de.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
 .tw-content-bg-blue {
   background: rgb(32, 32, 32);
   background: linear-gradient(
@@ -28,14 +44,12 @@
   );
 }
 
-
-
 /* Targeting the last row's first cell (bottom-left corner) */
 .data-table tbody tr:last-child td:first-child {
-    border-bottom-left-radius: 0.75rem; /* XL border radius in TailwindCSS is 0.75rem */
+  border-bottom-left-radius: 0.75rem; /* XL border radius in TailwindCSS is 0.75rem */
 }
 
 /* Targeting the last row's last cell (bottom-right corner) */
 .data-table tbody tr:last-child td:last-child {
-    border-bottom-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
 }
