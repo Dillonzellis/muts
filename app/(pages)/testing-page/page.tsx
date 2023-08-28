@@ -16,12 +16,11 @@ const TestingPage = () => {
       <Container>
         <SectionContent>
           <Modal
-            modalClass="test"
+            modalName="test"
             id="30"
             continueLink="https://www.google.com"
           />
         </SectionContent>
-        <SectionContent>{/* <Login /> */}</SectionContent>
       </Container>
     </div>
   );

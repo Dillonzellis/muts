@@ -1,5 +1,5 @@
 type ModalProps = {
-  modalClass: string;
+  modalName: string;
   continueLink: string;
   id: string;
 };
@@ -25,14 +25,14 @@ const Button = ({ children, cancel, href }: ButtonProps) => {
   );
 };
 
-const Modal = ({ modalClass, continueLink, id }: ModalProps) => {
+const Modal = ({ modalName, continueLink, id }: ModalProps) => {
   const cuName = "Mutual Savings Credit Union";
   const cancelHref = `wow-modal-close-${id}`;
 
   const containerPadding = "tw-px-3 md:tw-px-12";
 
   return (
-    <div className={`${modalClass} tw-max-w-[662px] tw-border tw-rounded-md`}>
+    <div className={`${modalName} tw-max-w-[662px] tw-border tw-rounded-md`}>
       <div className={`${containerPadding} tw-pt-6 tw-pb-4`}>
         <div className="tw-font-bold tw-text-xl tw-pb-4">Important Message</div>
         <div className="tw-text-sm md:tw-text-base">
