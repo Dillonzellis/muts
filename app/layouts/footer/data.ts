@@ -37,7 +37,7 @@ export const disclosures = [
   },
   {
     linkText: "Privacy Policy",
-    href: "#",
+    href: "https://dev2.growthbydesign.org/privacy-policy/",
   },
   {
     linkText: "Regulation CC",
@@ -52,7 +52,6 @@ export const disclosures = [
     href: "#",
   },
 ];
-
 
 export const usefulLinks = [
   {
@@ -73,7 +72,7 @@ export const usefulLinks = [
   },
   {
     linkText: "Privacy Policy",
-    href: "#",
+    href: "https://dev2.growthbydesign.org/privacy-policy/",
   },
   {
     linkText: "Contact Us",
