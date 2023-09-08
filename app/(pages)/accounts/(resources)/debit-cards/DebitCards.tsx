@@ -1,4 +1,4 @@
-import InnerContent from "@/app/components/inner-pages/InnerContent"
+import InnerContent from "@/app/components/inner-pages/InnerContent";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
 import LinkText from "@/app/components/LinkText";
@@ -16,13 +16,18 @@ const DebitCards = () => {
     >
       <div className="tw-flex tw-flex-col tw-gap-2">
         <ContentHeading title="VISA® Debit Cards with SecureLock" />
-        <ContentSecondaryHeading italic={true} title="Easy & automatic card access to your funds" />
+        <ContentSecondaryHeading
+          italic={true}
+          title="Easy & automatic card access to your funds"
+        />
       </div>
       <List liItems={items} />
-      <LinkText label="Don’t recognize a transaction? Complete a Dispute Form " href="" />
+      <LinkText
+        label="Don’t recognize a transaction? Complete a Dispute Form"
+        href="/#wow-modal-id-8"
+      />
     </InnerContent>
-  )
-}
+  );
+};
 
 export default DebitCards;
-
