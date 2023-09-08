@@ -3,6 +3,8 @@ import HeroImg from "@/app/components/inner-pages/HeroImg";
 import SectionContent from "@/app/components/inner-pages/SectionContent";
 import Container from "@/app/layouts/Container";
 import { modalData } from "@/app/data/modalData";
+import { modalDisclosureData } from "@/app/data/modalDisclosureData";
+import ModalDisclosure from "@/app/components/ModalDisclosure";
 
 const TestingPage = () => {
   return (
@@ -15,13 +17,17 @@ const TestingPage = () => {
       />
       <Container>
         <SectionContent>
-          {modalData.map((modal) => (
-            <Modal
-              modalName={modal.name}
-              id={modal.id}
-              continueLink={modal.continue}
-            />
-          ))}
+          <div className="tw-space-y-8">
+            {modalData.map((modal) => (
+              <Modal
+                key={modal.id}
+                disclosure={modal.disclosure}
+                modalName={modal.name}
+                id={modal.id}
+                continueLink={modal.continue}
+              />
+            ))}
+          </div>
         </SectionContent>
       </Container>
     </div>
