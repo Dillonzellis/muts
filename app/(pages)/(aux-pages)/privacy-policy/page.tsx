@@ -9,7 +9,7 @@ const CalculatorIndex = () => {
         <PageHeader title="Privacy Policy" />
 
         <div className="tw-max-w-[700px]">
-          {/* <table className="" role="presentation">
+          <table className="" role="presentation">
             <tbody>
               <tr className="even">
                 <td>FACTS FM6</td>
@@ -481,7 +481,7 @@ const CalculatorIndex = () => {
                 </td>
               </tr>
             </tbody>
-          </table> */}
+          </table>
         </div>
       </Container>
     </SectionContent>

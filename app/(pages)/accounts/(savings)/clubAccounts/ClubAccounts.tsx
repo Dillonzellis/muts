@@ -12,12 +12,16 @@ import ButtonWrapper from "@/app/components/inner-pages/ButtonWrapper";
 
 const ClubAccounts = () => {
   return (
-    <ContentTwoCol id="club-accounts" sectionName="club-accounts" variant="white">
+    <ContentTwoCol
+      id="club-accounts"
+      sectionName="club-accounts"
+      variant="white"
+    >
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Club Accounts " />
         <ContentBody>
-          Save a little at a time throughout the year for a specific purpose
-          so you can reap the benefits of your hard work when the need rolls
+          Save a little at a time throughout the year for a specific purpose so
+          you can reap the benefits of your hard work when the need rolls
           around!
         </ContentBody>
       </div>
@@ -32,21 +36,20 @@ const ClubAccounts = () => {
             <List liItems={items} />
             <ButtonWrapper>
               <Button btnText="Open an Account" link="#" />
-              <Button btnText="calculate savings" link="#" />
+              <Button
+                btnText="calculate savings"
+                link="https://dev2.growthbydesign.org/financial-calculators/"
+              />
             </ButtonWrapper>
           </ContentCol>
           <ContentCol>
             <ContentSecondaryHeading title="Vacation Club Accounts" />
             <div>Stash funds away for a vacation getaway!</div>
             <List liItems={items2} />
-            {/* <ButtonWrapper> */}
-            {/*   <Button btnText="Open an Account" link="#" /> */}
-            {/*   <Button btnText="calculate savings" link="#" /> */}
-            {/* </ButtonWrapper> */}
           </ContentCol>
         </TwoCol>
       </div>
-    </ContentTwoCol >
+    </ContentTwoCol>
   );
 };
 

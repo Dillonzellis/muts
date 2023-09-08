@@ -56,7 +56,7 @@ export const disclosures = [
 export const usefulLinks = [
   {
     linkText: "ATM Locator",
-    href: "https://www.culiance.com/en/atmlocator",
+    href: "/#wow-modal-id-1",
   },
   {
     linkText: "Current News",

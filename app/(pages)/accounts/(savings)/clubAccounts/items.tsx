@@ -1,4 +1,5 @@
 import React from "react";
+import LinkText from "@/app/components/LinkText";
 
 export const items: React.ReactNode[] = [
   <React.Fragment key="1">
@@ -6,34 +7,58 @@ export const items: React.ReactNode[] = [
   </React.Fragment>,
   <React.Fragment key="2">No minimum balance required</React.Fragment>,
   <React.Fragment key="3">
-    <a href="#">Dividend-bearing </a>
+    <LinkText
+      label="Dividend-bearing"
+      href="https://dev2.growthbydesign.org/deposit-rates/"
+    />
   </React.Fragment>,
   <React.Fragment key="4">Up to 6 free withdrawals/month</React.Fragment>,
   <React.Fragment key="5">
-    <a href="#">24/7 remote access </a>
+    <LinkText
+      label="24/7 remote access"
+      href="https://dev2.growthbydesign.org/solutions/#remote-banking"
+    />
   </React.Fragment>,
   <React.Fragment key="6">
-    <a href="#">Direct Deposit</a>
+    <LinkText
+      label="Direct deposit"
+      href="https://dev2.growthbydesign.org/accounts/#direct-deposit"
+    />
   </React.Fragment>,
   <React.Fragment key="7">
-    <a href="#">Payroll deduction</a>
+    <LinkText
+      label="Payroll deduction"
+      href="https://dev2.growthbydesign.org/accounts/#payroll-deduction"
+    />
   </React.Fragment>,
 ];
 
 export const items2: React.ReactNode[] = [
   <React.Fragment key="1">Withdraw as necessary</React.Fragment>,
-  <React.Fragment key="1">No minimum balance required</React.Fragment>,
-  <React.Fragment key="1">
-    <a href="#">Dividend-bearing</a>
+  <React.Fragment key="2">No minimum balance required</React.Fragment>,
+  <React.Fragment key="3">
+    <LinkText
+      label="Dividend-bearing"
+      href="https://dev2.growthbydesign.org/deposit-rates/"
+    />
   </React.Fragment>,
-  <React.Fragment key="1">Up to 6 free withdrawals/month</React.Fragment>,
-  <React.Fragment key="1">
-    <a href="#">24/7 remote access</a>
+  <React.Fragment key="4">Up to 6 free withdrawals/month</React.Fragment>,
+  <React.Fragment key="5">
+    <LinkText
+      label="24/7 remote access"
+      href="https://dev2.growthbydesign.org/solutions/#remote-banking"
+    />
   </React.Fragment>,
-  <React.Fragment key="1">
-    <a href="#">Direct deposit</a>
+  <React.Fragment key="6">
+    <LinkText
+      label="Direct deposit"
+      href="https://dev2.growthbydesign.org/accounts/#direct-deposit"
+    />
   </React.Fragment>,
-  <React.Fragment key="1">
-    <a href="#">Payroll deduction</a>
+  <React.Fragment key="7">
+    <LinkText
+      label="Payroll deduction"
+      href="https://dev2.growthbydesign.org/accounts/#payroll-deduction"
+    />
   </React.Fragment>,
 ];

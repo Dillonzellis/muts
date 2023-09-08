@@ -13,6 +13,7 @@ type InnerContentProps = {
   children: React.ReactNode;
   ImgSrc: string;
   ImgAlt: string;
+  rounded: boolean;
   vertical?: boolean;
   variant: BgColorVariant;
   order: OrderVariant;
@@ -24,6 +25,7 @@ const InnerContent = ({
   children,
   ImgSrc,
   ImgAlt,
+  rounded,
   vertical,
   variant,
   order,
@@ -47,8 +49,16 @@ const InnerContent = ({
         <TwoCol>
           {order === "contentFirst" ? (
             <>
-              <ContentCol color={color} order="tw-order-2 lg:tw-order-1">{children}</ContentCol>
-              <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} vertical={vertical} order="tw-order-1 md:tw-order-2" />
+              <ContentCol color={color} order="tw-order-2 lg:tw-order-1">
+                {children}
+              </ContentCol>
+              <ContentImg
+                ImgSrc={ImgSrc}
+                ImgAlt={ImgAlt}
+                rounded={rounded}
+                vertical={vertical}
+                order="tw-order-1 md:tw-order-2"
+              />
             </>
           ) : (
             <>

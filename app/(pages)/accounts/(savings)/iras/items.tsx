@@ -1,4 +1,5 @@
 import React from "react";
+import LinkText from "@/app/components/LinkText";
 
 export const items: React.ReactNode[] = [
   <React.Fragment key="1">
@@ -6,7 +7,10 @@ export const items: React.ReactNode[] = [
   </React.Fragment>,
   <React.Fragment key="2">No minimum amount required</React.Fragment>,
   <React.Fragment key="3">
-    <a href="#">Competitive rates</a>
+    <LinkText
+      label="Competitive rates"
+      href="https://dev2.growthbydesign.org/deposit-rates/"
+    />
   </React.Fragment>,
   <React.Fragment key="4">
     Earnings are tax-deferred until withdrawn

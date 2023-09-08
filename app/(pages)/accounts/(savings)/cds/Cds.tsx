@@ -15,7 +15,8 @@ const Cds = () => {
       order="contentFirst"
       variant="grey"
       ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1397011551.jpg"
-      ImgAlt="savings account">
+      ImgAlt="savings account"
+    >
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="Certificates of Deposit (CDs)" />
       </div>
@@ -27,7 +28,10 @@ const Cds = () => {
       </div>
       <ButtonWrapper>
         <Button btnText="Open an Account" link="#" />
-        <Button btnText="calculate savings" link="#" />
+        <Button
+          btnText="calculate savings"
+          link="https://dev2.growthbydesign.org/financial-calculators/"
+        />
       </ButtonWrapper>
     </InnerContent>
   );

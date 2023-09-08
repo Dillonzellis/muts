@@ -1,18 +1,35 @@
 import React from "react";
+import LinkText from "@/app/components/LinkText";
 
 const items: React.ReactNode[] = [
   <React.Fragment key="1">
-    <a href="#">Dividend-bearing</a>
+    <LinkText
+      dark
+      label="Dividend-bearing"
+      href="https://dev2.growthbydesign.org/deposit-rates/"
+    />
   </React.Fragment>,
   <React.Fragment key="2">Up to 6 free withdrawals/month</React.Fragment>,
   <React.Fragment key="3">
-    <a href="#">24/7 remote access</a>
+    <LinkText
+      dark
+      label="24/7 remote access"
+      href="https://dev2.growthbydesign.org/solutions/#remote-banking"
+    />
   </React.Fragment>,
   <React.Fragment key="4">
-    <a href="#">Direct deposit</a>
+    <LinkText
+      dark
+      label="Direct deposit"
+      href="https://dev2.growthbydesign.org/accounts/#direct-deposit"
+    />
   </React.Fragment>,
   <React.Fragment key="5">
-    <a href="#">Payroll deduction</a>
+    <LinkText
+      dark
+      label="Payroll deduction"
+      href="https://dev2.growthbydesign.org/accounts/#payroll-deduction"
+    />
   </React.Fragment>,
 ];
 

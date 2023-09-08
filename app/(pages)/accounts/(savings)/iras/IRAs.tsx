@@ -12,10 +12,7 @@ import ContentCol from "@/app/components/inner-pages/ContentCol";
 
 const IRAs = () => {
   return (
-    <ContentTwoCol
-      id="iras"
-      sectionName="iras"
-      variant="white">
+    <ContentTwoCol id="iras" sectionName="iras" variant="white">
       <div className="tw-flex tw-flex-col tw-gap-3">
         <ContentHeading title="IRAs" />
         <ContentBody>
@@ -30,7 +27,10 @@ const IRAs = () => {
             <List liItems={items2} />
             <ButtonWrapper>
               <Button btnText="Open an Account" link="#" />
-              <Button btnText="calculate savings" link="#" />
+              <Button
+                btnText="calculate savings"
+                link="https://dev2.growthbydesign.org/financial-calculators/"
+              />
             </ButtonWrapper>
           </ContentCol>
           <ContentCol>
