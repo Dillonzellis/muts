@@ -27,7 +27,6 @@ const items: React.ReactNode[] = [
     />
   </React.Fragment>,
   <React.Fragment key="6">
-    <a href="#"></a>
     <LinkText
       label="Payroll deduction"
       href="https://dev2.growthbydesign.org/accounts/#payroll-deduction"
