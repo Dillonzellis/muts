@@ -13,7 +13,7 @@ type InnerContentProps = {
   children: React.ReactNode;
   ImgSrc: string;
   ImgAlt: string;
-  rounded: boolean;
+  rounded?: boolean;
   vertical?: boolean;
   variant: BgColorVariant;
   order: OrderVariant;
