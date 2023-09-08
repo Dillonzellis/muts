@@ -1,14 +1,22 @@
-import React from "react"
-import List from "@/app/components/List"
-import ContentHeaderWrapper from "@/app/components/inner-pages/ContentHeaderWrapper"
-import ContentHeading from "@/app/components/inner-pages/ContentHeading"
-import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading"
-import InnerContent from "@/app/components/inner-pages/InnerContent"
+import React from "react";
+import List from "@/app/components/List";
+import ContentHeaderWrapper from "@/app/components/inner-pages/ContentHeaderWrapper";
+import ContentHeading from "@/app/components/inner-pages/ContentHeading";
+import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
+import InnerContent from "@/app/components/inner-pages/InnerContent";
+import LinkText from "@/app/components/LinkText";
 
 const scoreItems: React.ReactNode[] = [
-  <React.Fragment key="1">Earn 1 point for every $1 spent on your VISA® Platinum Rewards card</React.Fragment>,
-  <React.Fragment key="2">Redeem points for <a href="https://www.scorecardrewards.com/#/home">merchandise & travel rewards</a></React.Fragment>,
-  <React.Fragment key="3">Contact ScoreCard™ REWARDS at 800-854-0790</React.Fragment>,
+  <React.Fragment key="1">
+    Earn 1 point for every $1 spent on your VISA® Platinum Rewards card
+  </React.Fragment>,
+  <React.Fragment key="2">
+    Redeem points for{" "}
+    <LinkText label="merchandise & travel rewards" href="/#wow-modal-id-9" />
+  </React.Fragment>,
+  <React.Fragment key="3">
+    Contact ScoreCard™ REWARDS at 800-854-0790
+  </React.Fragment>,
 ];
 
 const ScoreCard = () => {
@@ -26,8 +34,7 @@ const ScoreCard = () => {
       </ContentHeaderWrapper>
       <List liItems={scoreItems} />
     </InnerContent>
-  )
-}
-
+  );
+};
 
 export default ScoreCard;
