@@ -63,7 +63,7 @@ const InnerContent = ({
           ) : (
             <>
               <ContentImg ImgSrc={ImgSrc} ImgAlt={ImgAlt} vertical={vertical} />
-              <ContentCol>{children}</ContentCol>
+              <ContentCol color={color}>{children}</ContentCol>
             </>
           )}
         </TwoCol>
