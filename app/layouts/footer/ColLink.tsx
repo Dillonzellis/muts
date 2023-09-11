@@ -6,7 +6,12 @@ export type ColLinkProps = {
 const ColLink = ({ linkText, href }: ColLinkProps) => {
   return (
     <div>
-      <a href={href} target="_blank" rel="noopener noreferrer">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="tw-transition hover:tw-text-brandingGreen-400"
+      >
         {linkText}
       </a>
     </div>

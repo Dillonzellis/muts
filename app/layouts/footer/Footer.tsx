@@ -1,3 +1,4 @@
+import LinkText from "@/app/components/LinkText";
 import Container from "../Container";
 import Col from "./Col";
 import ColHeader from "./ColHeader";
@@ -18,13 +19,22 @@ const Footer = () => {
             </div>
             <div className="">
               <div>
-                Phone: <a href="tel:+18007716695">(800) 771-6695</a>
+                Phone:{" "}
+                <LinkText
+                  label="(800) 771-6695"
+                  href="tel:+18007716695"
+                  dark
+                  underline={false}
+                />
               </div>
               <div>
                 Email:{" "}
-                <a href="mailto:mutualsavingscu@mutualsavingscu.org">
-                  mutualsavingscu@mutualsavingscu.org
-                </a>
+                <LinkText
+                  label="mutualsavingscu@mutualsavingscu.org"
+                  href="mailto:mutualsavingscu@mutualsavingscu.org"
+                  dark
+                  underline={false}
+                />
               </div>
             </div>
           </Col>
@@ -36,8 +46,14 @@ const Footer = () => {
             ))}
           </Col>
           <div className="tw-flex tw-flex-col tw-gap-4 tw-items-center">
-            <img src="http://dev2.growthbydesign.org/wp-content/uploads/ncua.webp" width={200} />
-            <img src="http://dev2.growthbydesign.org/wp-content/uploads/eqh-logo.png" width={100} />
+            <img
+              src="http://dev2.growthbydesign.org/wp-content/uploads/ncua.webp"
+              width={200}
+            />
+            <img
+              src="http://dev2.growthbydesign.org/wp-content/uploads/eqh-logo.png"
+              width={100}
+            />
           </div>
         </div>
         <CopyFooter />
