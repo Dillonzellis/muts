@@ -28,7 +28,10 @@ const RegSavings = () => {
       </div>
       <List liItems={items} />
       <ButtonWrapper>
-        <Button btnText="Open an Account" link="#" />
+        <Button
+          btnText="Open an Account"
+          link="https://dev2.growthbydesign.org/membership-application/"
+        />
         <Button
           btnText="calculate savings"
           link="https://dev2.growthbydesign.org/financial-calculators/"

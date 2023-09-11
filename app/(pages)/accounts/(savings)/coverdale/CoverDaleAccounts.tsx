@@ -23,7 +23,11 @@ const CoverdellAccounts = () => {
       </div>
       <List liItems={items} />
       <ButtonWrapper>
-        <Button btnText="Open an Account" link="#" variant="light" />
+        <Button
+          btnText="Open an Account"
+          link="https://dev2.growthbydesign.org/membership-application/"
+          variant="light"
+        />
         <Button
           variant="light"
           btnText="calculate savings"

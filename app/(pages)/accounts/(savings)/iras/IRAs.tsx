@@ -26,7 +26,10 @@ const IRAs = () => {
             <ContentSecondaryHeading title="Roth IRAs" />
             <List liItems={items2} />
             <ButtonWrapper>
-              <Button btnText="Open an Account" link="#" />
+              <Button
+                btnText="Open an Account"
+                link="https://dev2.growthbydesign.org/membership-application/"
+              />
               <Button
                 btnText="calculate savings"
                 link="https://dev2.growthbydesign.org/financial-calculators/"

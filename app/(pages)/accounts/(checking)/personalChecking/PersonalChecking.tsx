@@ -22,16 +22,20 @@ const PersonalChecking = () => {
       </div>
       <div className="tw-flex tw-flex-col tw-gap-2">
         <ContentBody>
-          Save. Earn. Spend. Checking with the flexibility and convenience you need to live your life!
+          Save. Earn. Spend. Checking with the flexibility and convenience you
+          need to live your life!
         </ContentBody>
       </div>
       <List liItems={items} />
       <Disclaimer text="*You must maintain a minimum daily balance of $250.00 in your account each day to obtain the disclosed annual percentage yield. | **Members are eligible for the Courtesy Pay feature after 6 months of satisfactory performance on a share draft account. This feature offers overdraft protection for a fee. Call the credit union for details" />
       <ButtonWrapper>
-        <Button btnText="Open an Account" link="#" />
+        <Button
+          btnText="Open an Account"
+          link="https://dev2.growthbydesign.org/membership-application/"
+        />
       </ButtonWrapper>
     </InnerContent>
-  )
-}
+  );
+};
 
 export default PersonalChecking;
