@@ -1,29 +1,10 @@
+import ModalButton from "./ModalBtn";
+
 type ModalProps = {
   disclosure?: boolean;
   modalName: string;
   continueLink: string;
   id: string;
-};
-
-type ButtonProps = {
-  children: React.ReactNode;
-  cancel?: boolean;
-  href: string;
-};
-
-const Button = ({ children, cancel, href }: ButtonProps) => {
-  const variantClass = cancel
-    ? "tw-border-2 tw-border-brandingBlue-400 tw-text-brandingBlue-400 tw-bg-white"
-    : "tw-bg-brandingBlue-400 tw-text-white";
-
-  return (
-    <a
-      className={`${variantClass} tw-transition tw-transform hover:tw-scale-105 tw-justify-center tw-font-semibold tw-rounded-md tw-inline-flex tw-cursor-pointer tw-items-center tw-h-10 tw-px-12 tw-py-2 tw-capitalize`}
-      href={href}
-    >
-      {children}
-    </a>
-  );
 };
 
 const Modal = ({ disclosure, modalName, continueLink, id }: ModalProps) => {
@@ -64,12 +45,12 @@ const Modal = ({ disclosure, modalName, continueLink, id }: ModalProps) => {
         <div
           className={`${containerPadding} tw-bg-brandingGrey-100 tw-flex tw-flex-col md:tw-flex-row tw-gap-2 md:tw-gap-4`}
         >
-          <Button cancel href={cancelHref}>
+          <ModalButton cancel href={cancelHref}>
             {disclosure ? "I Disagree" : "Cancel"}
-          </Button>
-          <Button href={continueLink}>
+          </ModalButton>
+          <ModalButton href={continueLink}>
             {disclosure ? "I Agree" : "Continue"}
-          </Button>
+          </ModalButton>
         </div>
       </div>
     </div>

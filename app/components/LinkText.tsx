@@ -10,10 +10,7 @@ const LinkText = ({ label, href, dark }: LinkTextProps) => {
     : "hover:tw-text-brandingBlue-400 ";
 
   return (
-    <a
-      className={`tw-underline hover:tw-font-medium ${colorClass}`}
-      href={href}
-    >
+    <a className={`tw-underline tw-transition ${colorClass}`} href={href}>
       {label}
     </a>
   );
