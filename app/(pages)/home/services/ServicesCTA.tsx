@@ -30,7 +30,11 @@ const ServicesCTA = () => {
               <CheckItem />
               <CheckItem />
             </div>
-            <Button btnText="apply today" link="#" className="self-start" />
+            <Button
+              btnText="apply today"
+              link="https://dev2.growthbydesign.org/membership-application/"
+              className="self-start"
+            />
           </div>
         </div>
       </Container>

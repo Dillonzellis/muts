@@ -9,11 +9,11 @@ import ContentImg from "@/app/components/inner-pages/ContentImg";
 
 type ListWrapperProps = {
   children: React.ReactNode;
-}
+};
 
 const ListWrapper = ({ children }: ListWrapperProps) => {
-  return <div className="tw-space-y-2">{children}</div>
-}
+  return <div className="tw-space-y-2">{children}</div>;
+};
 
 const liItems = [
   <React.Fragment key="1">Southern Company Gas</React.Fragment>,
@@ -29,7 +29,7 @@ const liItems = [
   <React.Fragment key="10">Sequent Energy Management</React.Fragment>,
   <React.Fragment key="11">SouthStar Energy Services</React.Fragment>,
   <React.Fragment key="12">Virginia Natural Gas</React.Fragment>,
-]
+];
 
 const liItems2 = [
   <React.Fragment key="1">Benton Georgia Inc.</React.Fragment>,
@@ -40,18 +40,18 @@ const liItems2 = [
   <React.Fragment key="6">Vertex Group Limited</React.Fragment>,
   <React.Fragment key="7">Utilities Protection Center Inc</React.Fragment>,
   <React.Fragment key="8">Gooch Trucking</React.Fragment>,
-]
+];
 
 const WhoCanJoin = () => {
   return (
-    <ContentTwoCol
-      id="who-can-join"
-      variant="blue"
-    >
+    <ContentTwoCol id="who-can-join" variant="blue">
       <div className="tw-space-y-8">
         <div className="tw-flex tw-flex-col tw-gap-2 tw-max-w-[800px]">
           <ContentHeading title="Who Can Join" />
-          <ContentSecondaryHeading italic title="Membership in Mutual Savings Credit Union encompasses any employee or retiree (and immediate family members) of Southern Company Gas, its subsidiaries, affiliates, and other qualified company contractors." />
+          <ContentSecondaryHeading
+            italic
+            title="Membership in Mutual Savings Credit Union encompasses any employee or retiree (and immediate family members) of Southern Company Gas, its subsidiaries, affiliates, and other qualified company contractors."
+          />
         </div>
         <div className="tw-grid tw-gap-4 md:tw-grid-cols-2 lg:tw-grid-cols-3">
           <ListWrapper>
@@ -63,13 +63,19 @@ const WhoCanJoin = () => {
             <List liItems={liItems2} />
           </ListWrapper>
           <div className="tw-hidden lg:tw-block">
-            <ContentImg ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1440750455.jpg" ImgAlt="" />
+            <ContentImg
+              ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1440750455.jpg"
+              ImgAlt=""
+            />
           </div>
         </div>
-        <Button btnText="Join the credit union" link="" />
+        <Button
+          btnText="Join the credit union"
+          link="https://dev2.growthbydesign.org/membership-application/"
+        />
       </div>
     </ContentTwoCol>
-  )
-}
+  );
+};
 
 export default WhoCanJoin;

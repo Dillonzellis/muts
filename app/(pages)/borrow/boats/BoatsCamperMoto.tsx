@@ -1,10 +1,9 @@
-
 import Button from "@/app/components/Button";
 import items from "./items";
 import List from "@/app/components/List";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
-import InnerContent from "@/app/components/inner-pages/InnerContent"
+import InnerContent from "@/app/components/inner-pages/InnerContent";
 
 const BoatsCamperMoto = () => {
   return (
@@ -18,14 +17,19 @@ const BoatsCamperMoto = () => {
     >
       <div className="tw-flex tw-flex-col tw-gap-2">
         <ContentHeading title="Camper, Boat & Motorcycle Loans" />
-        <ContentSecondaryHeading italic title="Take your adventure up a notch!" />
+        <ContentSecondaryHeading
+          italic
+          title="Take your adventure up a notch!"
+        />
       </div>
       <List liItems={items} />
-      <Button btnText="apply for a loan" link="" />
-      <div>
-      </div>
+      <Button
+        btnText="apply for a loan"
+        link="https://dev2.growthbydesign.org/loan-application/"
+      />
+      <div></div>
     </InnerContent>
-  )
-}
+  );
+};
 
 export default BoatsCamperMoto;

@@ -15,7 +15,11 @@ const Hero = () => {
               low APR* of 8%, and a maximum 6 months tern. Automatic payment is
               required**. Offer available May 1st - August 31st.
             </p>
-            <Button btnText="apply today" link="#" className="self-start" />
+            <Button
+              btnText="apply today"
+              link="https://dev2.growthbydesign.org/membership-application/"
+              className="self-start"
+            />
           </div>
         </div>
       </Container>
@@ -34,7 +38,7 @@ const Hero = () => {
         height={200}
       />
     </div>
-  )
-}
+  );
+};
 
 export default Hero;
