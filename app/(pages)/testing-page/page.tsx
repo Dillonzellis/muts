@@ -3,8 +3,6 @@ import HeroImg from "@/app/components/inner-pages/HeroImg";
 import SectionContent from "@/app/components/inner-pages/SectionContent";
 import Container from "@/app/layouts/Container";
 import { modalData } from "@/app/data/modalData";
-import { modalDisclosureData } from "@/app/data/modalDisclosureData";
-import ModalDisclosure from "@/app/components/ModalDisclosure";
 
 const TestingPage = () => {
   return (

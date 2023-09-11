@@ -143,13 +143,13 @@ body.et_cover_background {
   background-repeat: no-repeat !important;
   background-attachment: fixed;
 }
-a {
+/* a {
   color: #2ea3f2;
 }
 a,
 a:hover {
   text-decoration: none;
-}
+} */
 p {
   padding-bottom: 1em;
 }

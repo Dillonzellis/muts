@@ -35,8 +35,10 @@ const MembershipApplication = () => {
           Application Instructions
         </div>
         <ol className="tw-list-decimal tw-max-w-[100ch] tw-space-y-2 tw-pb-8 tw-list-inside">
-          {list.map((li) => (
-            <li className="tw-text-lg">{li.content}</li>
+          {list.map((li, idx) => (
+            <li key={idx} className="tw-text-lg">
+              {li.content}
+            </li>
           ))}
         </ol>
         <div className="tw-flex tw-flex-col md:tw-flex-row">
