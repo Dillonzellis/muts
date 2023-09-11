@@ -1,6 +1,6 @@
 type ContentColProps = {
   children: React.ReactNode;
-  color: string;
+  color?: string;
   order?: string;
 };
 
