@@ -44,12 +44,11 @@ export const modalData: modalDataType[] = [
     disclosure: true,
     name: "payroll-deduction",
     id: "7",
-    continue:
-      "http://dev2.growthbydesign.org/wp-content/uploads/payroll-deduction.pdf",
+    continue: "#wow-modal-id-7",
   },
   {
     disclosure: true,
-    name: "dispute-form",
+    name: "credit-dispute-form",
     id: "8",
     continue:
       "http://dev2.growthbydesign.org/wp-content/uploads/CreditCardDisputeForm.pdf",
@@ -88,5 +87,37 @@ export const modalData: modalDataType[] = [
     name: "id-theft",
     id: "15",
     continue: "https://www.identitytheft.gov/",
+  },
+  {
+    name: "ach-form",
+    id: "16",
+    continue:
+      "http://dev2.growthbydesign.org/wp-content/uploads/ACH-authorization.pdf",
+  },
+  {
+    disclosure: true,
+    name: "address-change-form",
+    id: "17",
+    continue: "",
+  },
+  {
+    disclosure: true,
+    name: "more-info",
+    id: "18",
+    continue: "",
+  },
+  {
+    disclosure: true,
+    name: "debit-dispute-form",
+    id: "19",
+    continue:
+      "http://dev2.growthbydesign.org/wp-content/uploads/DebitCardDisputeForm.pdf",
+  },
+  {
+    disclosure: true,
+    name: "debit-application",
+    id: "20",
+    continue:
+      "http://dev2.growthbydesign.org/wp-content/uploads/debit-card-application.pdf",
   },
 ];
