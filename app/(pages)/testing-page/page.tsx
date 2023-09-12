@@ -3,6 +3,7 @@ import HeroImg from "@/app/components/inner-pages/HeroImg";
 import SectionContent from "@/app/components/inner-pages/SectionContent";
 import Container from "@/app/layouts/Container";
 import { modalData } from "@/app/data/modalData";
+import LoginModal from "@/app/components/LoginModal";
 
 const TestingPage = () => {
   return (
@@ -27,6 +28,8 @@ const TestingPage = () => {
             ))}
           </div>
         </SectionContent>
+        <div className="tw-min-h-[10rem]"></div>
+        <LoginModal />
       </Container>
     </div>
   );

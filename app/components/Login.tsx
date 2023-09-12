@@ -9,17 +9,19 @@ interface LoginProps {
   isVisible: boolean;
 }
 
-const InputHeader: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const InputHeader: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   return <div className="tw-font-medium tw-text-lg">{children}</div>;
 };
 
-const InputWrapper: React.FC<{ children: React.ReactNode }> = ({
+export const InputWrapper: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   return <div className="tw-space-y-1">{children}</div>;
 };
 
-const Input: React.FC<InputProps> = ({ type }) => {
+export const Input: React.FC<InputProps> = ({ type }) => {
   return <input className="tw-w-full tw-p-2 tw-text-black" type={type} />;
 };
 
