@@ -53,9 +53,3 @@
 .data-table tbody tr:last-child td:last-child {
   border-bottom-right-radius: 0.75rem;
 }
-
-@media (min-width: 768px) {
-  .modal-hidden {
-    display: none !important;
-  }
-}
