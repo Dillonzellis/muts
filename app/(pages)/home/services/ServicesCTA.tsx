@@ -20,19 +20,20 @@ const ServicesCTA = () => {
           <div className="tw-flex tw-flex-col tw-gap-8">
             <div>
               <div className="tw-mb-4 tw-text-2xl md:tw-text-3xl tw-text-brandingBlue-400">
-                Check out some of the FREE Services MSCU offers its members
-                today!
+                Stay in touch with your accounts 24/7 with our many remote
+                banking options!
               </div>
               <hr className="tw-w-28 tw-border-2 tw-border-brandingGreen-400" />
             </div>
             <div className="tw-flex tw-flex-col tw-gap-4">
-              <CheckItem />
-              <CheckItem />
-              <CheckItem />
+              <CheckItem label="Online Banking" />
+              <CheckItem label="Mobile Banking" />
+              <CheckItem label="P2P Transfers" />
+              <CheckItem label="Bill Pay" />
             </div>
             <Button
-              btnText="apply today"
-              link="https://dev2.growthbydesign.org/membership-application/"
+              btnText="learn more!"
+              link="https://dev2.growthbydesign.org/solutions/#remote-banking"
               className="self-start"
             />
           </div>
