@@ -7,27 +7,24 @@ import ContentHeaderWrapper from "@/app/components/inner-pages/ContentHeaderWrap
 
 const items: React.ReactNode[] = [
   <React.Fragment key="1">Available for In-Branch Purchase</React.Fragment>,
-  <React.Fragment key="2">
-    Accepted Almost Anywhere – <em>In store or online!</em>
-  </React.Fragment>,
-  <React.Fragment key="3">Safer Payment Method than Cash</React.Fragment>,
-  <React.Fragment key="4">Small Purchase Fee Applies</React.Fragment>,
+  <React.Fragment key="2">Small $1 Fee Per Money Order Applies</React.Fragment>,
+  <React.Fragment key="3">Small Purchase Fee Applies</React.Fragment>,
 ];
 
-const VisaGiftCards = () => {
+const MoneyOrders = () => {
   return (
     <InnerContent
-      id="visa-gift-cards"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1446091634-scaled.jpg"
+      id="money-orders"
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1368987043.jpg"
       ImgAlt=""
-      order="imageFirst"
-      variant="white"
+      order="contentFirst"
+      variant="grey"
     >
       <ContentHeaderWrapper>
-        <ContentHeading title="Visa® Gift Cards" />
+        <ContentHeading title="Money Orders" />
         <ContentSecondaryHeading
           italic
-          title="You can’t go wrong with a gift card! Birthdays, holidays, graduations….a gift card is the perfect gift for any occasion!"
+          title="A reliable and convenient alternative to cash or checks!"
         />
       </ContentHeaderWrapper>
       <List liItems={items} />
@@ -35,4 +32,4 @@ const VisaGiftCards = () => {
   );
 };
 
-export default VisaGiftCards;
+export default MoneyOrders;

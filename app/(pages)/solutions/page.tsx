@@ -2,6 +2,7 @@ import HeroImg from "@/app/components/inner-pages/HeroImg";
 import RemoteBanking from "./remote-banking/RemoteBanking";
 import IdTheft from "./id-theft/IdTheft";
 import VisaGiftCards from "./VisaGiftCards";
+import MoneyOrders from "./MoneyOrders";
 
 const SolutionsPage = () => {
   return (
@@ -15,6 +16,7 @@ const SolutionsPage = () => {
       <RemoteBanking />
       <IdTheft />
       <VisaGiftCards />
+      <MoneyOrders />
     </div>
   );
 };
