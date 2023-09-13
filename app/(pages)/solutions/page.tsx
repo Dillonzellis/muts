@@ -1,6 +1,7 @@
-import HeroImg from "@/app/components/inner-pages/HeroImg"
+import HeroImg from "@/app/components/inner-pages/HeroImg";
 import RemoteBanking from "./remote-banking/RemoteBanking";
 import IdTheft from "./id-theft/IdTheft";
+import VisaGiftCards from "./VisaGiftCards";
 
 const SolutionsPage = () => {
   return (
@@ -13,8 +14,9 @@ const SolutionsPage = () => {
       />
       <RemoteBanking />
       <IdTheft />
+      <VisaGiftCards />
     </div>
-  )
-}
+  );
+};
 
 export default SolutionsPage;
