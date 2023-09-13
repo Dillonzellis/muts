@@ -6,12 +6,7 @@ type CardProps = {
   cardLink?: string;
 };
 
-const Card = ({
-  icon,
-  title,
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium? Iure delectus officia reiciendis culpa facilis sequi explicabo expedita quia?",
-  cardLink = "#",
-}: CardProps) => {
+const Card = ({ icon, title, description, cardLink }: CardProps) => {
   return (
     <div className="tw-inline-flex tw-h-[316px] tw-rounded-3xl tw-border tw-border-slate-100 tw-bg-white tw-p-4 tw-text-black tw-shadow-xl">
       <div className="tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-4">
