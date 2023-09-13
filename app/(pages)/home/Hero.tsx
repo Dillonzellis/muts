@@ -5,15 +5,13 @@ const Hero = () => {
   return (
     <div className="hero tw-relative max:tw-mb-8">
       <Container>
-        <div className="tw-absolute tw-top-1/2 tw--translate-y-[70%]">
+        <div className="tw-absolute tw-z-10 tw-top-1/2 tw--translate-y-[70%]">
           <div className="tw-flex tw-max-w-prose tw-flex-col tw-gap-8 tw-text-white">
-            <h1 className="tw-text-3xl md:tw-text-6xl tw-font-bold tw-text-white">
-              We&apos;ll help you pay for that trip to Paradise
+            <h1 className="tw-text-3xl md:tw-text-6xl tw-font-bold tw-text-white tw-capitalize">
+              Get the right financing before you find the right car!
             </h1>
-            <p>
-              Get Summertime loan from MSCU! You can borrow up to $1,000 with a
-              low APR* of 8%, and a maximum 6 months tern. Automatic payment is
-              required**. Offer available May 1st - August 31st.
+            <p className="tw-text-xl">
+              Let us help you shop & negotiate with confidence.
             </p>
             <Button
               btnText="apply today"
@@ -24,7 +22,7 @@ const Hero = () => {
         </div>
       </Container>
       <img
-        className="tw-h-[500px] md:tw-h-[750px] tw-w-full tw-object-cover tw-border-t-8 md:tw-border-t-0 tw-border-brandingBlue-400"
+        className="tw-brightness-75 tw-h-[500px] md:tw-h-[750px] tw-w-full tw-object-cover tw-border-t-8 md:tw-border-t-0 tw-border-brandingBlue-400"
         src="http://dev2.growthbydesign.org/wp-content/uploads/BG.jpg"
         alt="hero img"
         width={1920}
