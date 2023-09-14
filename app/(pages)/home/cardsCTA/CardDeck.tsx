@@ -2,11 +2,11 @@ import Card from "./Card";
 
 const CardDeck = () => {
   return (
-    <div className="tw-mx-auto tw-mt-4 lg:tw-mt-0 lg:tw-absolute tw-left-[40%] tw-top-1/4 tw-grid tw-max-w-[800px] lg:tw-grid-cols-2 tw-gap-6">
+    <div className="tw-left-[40%] tw-top-1/4 tw-mx-auto tw-mt-4 tw-grid tw-max-w-[800px] tw-gap-6 lg:tw-absolute lg:tw-top-[30%] lg:tw-mt-0 lg:tw-grid-cols-2 2xl:tw-top-1/4">
       <Card
         icon="http://dev2.growthbydesign.org/wp-content/uploads/loans-icon.png"
         title="loan application"
-        description="Whatever the need, big or small, we have the funds to help you cover it all! Apply for the loan you need today."
+        description="Whatever the need, big or small, we have the funds to help you cover it all!"
         cardLink="https://dev2.growthbydesign.org/loan-application/"
       />
       <Card
@@ -18,13 +18,13 @@ const CardDeck = () => {
       <Card
         icon="http://dev2.growthbydesign.org/wp-content/uploads/atm-icon.png"
         title="ATM/Shared Branching"
-        description="We’re always within reach! Whether across town, or across the country, you can find an ATM or shared branch near you."
+        description="Whether across town, or across the country, you can find an ATM or shared branch near you."
         cardLink="https://dev2.growthbydesign.org/solutions/#remote-banking"
       />
       <Card
         icon="http://dev2.growthbydesign.org/wp-content/uploads/cc-icon.png"
         title="Visa® Credit Cards"
-        description="Spend & earn! With a Visa® Platinum Rewards credit card, you can earn rewards points for every dollar you spend!"
+        description="With a Visa® Platinum Rewards credit card, you can earn rewards points for every dollar you spend!"
         cardLink="https://dev2.growthbydesign.org/borrow/#credit-cards"
       />
     </div>
