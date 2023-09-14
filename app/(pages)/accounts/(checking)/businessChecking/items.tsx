@@ -6,7 +6,7 @@ const items: React.ReactNode[] = [
   <React.Fragment key="2">No per check charges</React.Fragment>,
   <React.Fragment key="3">No minimum balance requirements</React.Fragment>,
   <React.Fragment key="4">
-    Dividend-earning on daily balances of $250+
+    Dividend-earning on daily balances of $250+*
   </React.Fragment>,
   <React.Fragment key="5">
     <LinkText
