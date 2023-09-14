@@ -14,7 +14,7 @@ const CoverdellAccounts = () => {
       sectionName="coverdale"
       order="contentFirst"
       variant="blue"
-      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1389552770.jpg"
+      ImgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1049942632.jpg"
       ImgAlt="savings account"
       vertical
     >
