@@ -1,4 +1,4 @@
-import HeroImg from "@/app/components/inner-pages/HeroImg"
+import HeroImg from "@/app/components/inner-pages/HeroImg";
 import AdditionalLoans from "./AdditionalLoans";
 import AutoLoans from "./autoLoans/AutoLoans";
 import BoatsCamperMoto from "./boats/BoatsCamperMoto";
@@ -13,11 +13,12 @@ const BorrowPage = () => {
   return (
     <div>
       <HeroImg
-        title="Borrow"
-        desc="Borrow & Buy Accounts"
+        title="Borrow & Buy Accounts"
+        desc=""
         desc2="Competitive loans promote access & credit growth"
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/iStock-1393059175.jpg"
         imgAlt=""
+        darker
       />
       {/* Loans */}
       <AutoLoans />
@@ -31,7 +32,7 @@ const BorrowPage = () => {
       <MBI />
       <ScoreCard />
     </div>
-  )
-}
+  );
+};
 
 export default BorrowPage;
