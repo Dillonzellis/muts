@@ -15,11 +15,11 @@ const page = () => {
   return (
     <main>
       <HeroImg
-        title="accounts"
-        desc="Save & Earn Accounts"
+        title="Save & Earn Accounts"
         desc2="Dividend bearing accounts promote financial growth"
         imgSrc="http://dev2.growthbydesign.org/wp-content/uploads/account-hero.jpg"
         imgAlt="accounts"
+        darker
       />
       {/* Savings */}
       <RegSavings />
