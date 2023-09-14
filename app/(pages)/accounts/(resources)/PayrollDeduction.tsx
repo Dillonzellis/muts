@@ -18,13 +18,8 @@ const PayrollDeduction = () => {
         payroll deduction at Mutual Savings Credit Union to have funds
         automatically deducted from your paycheck and deposited into your
         savings account or checking account or applied to make loan payments.
-        It&apos;s an easy way to save or to ensure that you&apos;ll never miss a
-        loan payment.
       </ContentBody>
-      <Button
-        btnText="Get started by contact us today!"
-        link="/#wow-modal-id-7"
-      />
+      <Button btnText="Get started!" link="/#wow-modal-id-7" />
     </InnerContent>
   );
 };
