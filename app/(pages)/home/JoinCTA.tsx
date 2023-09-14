@@ -35,7 +35,7 @@ const JoinCTA = () => {
             </div>
             <div>
               {perks.map((perk) => (
-                <span className="tw-text-lg tw-font-semibold">
+                <span key={perk.label} className="tw-text-lg tw-font-semibold">
                   {perk.label}
                 </span>
               ))}
