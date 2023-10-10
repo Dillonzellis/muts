@@ -14,7 +14,7 @@ const items: React.ReactNode[] = [
   <React.Fragment key="5">Flexible payment options</React.Fragment>,
   <React.Fragment key="6">Preapprovals </React.Fragment>,
   <React.Fragment key="7">
-    <LinkText label="Car Buy Service" href="/#wow-modal-id-2" />
+    <LinkText label="Car Buying Service" href="/#wow-modal-id-2" />
   </React.Fragment>,
   <React.Fragment key="8">
     <a href=""></a>
