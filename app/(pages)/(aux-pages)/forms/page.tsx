@@ -2,7 +2,6 @@ import React from "react";
 import Container from "@/app/layouts/Container";
 import HeroImg from "@/app/components/inner-pages/HeroImg";
 import SectionContent from "@/app/components/inner-pages/SectionContent";
-import { AuxHeader, AuxWrapper } from "@/app/components/AuxHeaders";
 import LinkText from "@/app/components/LinkText";
 
 const forms = [
