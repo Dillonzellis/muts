@@ -49,7 +49,7 @@ const ContactUs = () => {
               title="Reach out for personalized assistance, questions, or any banking inquiries you might have"
             />
           </ContentHeaderWrapper>
-          <div className="tw-grid lg:tw-grid-cols-3 tw-gap-4">
+          <div className="tw-grid tw-gap-4 lg:tw-grid-cols-3">
             <ColWrapper>
               <ColHeader>Office</ColHeader>
               <ColItem>Mutual Savings Credit Union</ColItem>
