@@ -98,13 +98,13 @@ export const modalData: modalDataType[] = [
     disclosure: true,
     name: "address-change-form",
     id: "17",
-    continue: "",
+    continue: "https://dev2.growthbydesign.org/address-change-form/",
   },
   {
     disclosure: true,
     name: "more-info",
     id: "18",
-    continue: "",
+    continue: "https://dev2.growthbydesign.org/send-more-info/",
   },
   {
     disclosure: true,
