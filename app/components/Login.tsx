@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import LinkText from "./LinkText";
 
 interface InputProps {
   type: "text" | "password";
@@ -12,7 +13,7 @@ interface LoginProps {
 export const InputHeader: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  return <div className="tw-font-medium tw-text-lg">{children}</div>;
+  return <div className="tw-text-lg tw-font-medium">{children}</div>;
 };
 
 export const InputWrapper: React.FC<{ children: React.ReactNode }> = ({
@@ -30,9 +31,9 @@ const Login: React.FC<LoginProps> = ({ isVisible }) => {
 
   return (
     <div
-      className={`login-de ${visibilityClass} tw-z-[999] tw-right-0 tw-absolute tw-rounded-md tw-flex tw-flex-col tw-gap-4 tw-shadow-md tw-mt-2 tw-max-w-[400px] tw-p-4 tw-bg-brandingBlue-400 tw-text-white`}
+      className={`login-de ${visibilityClass} tw-absolute tw-right-0 tw-z-[999] tw-mt-2 tw-flex tw-w-full tw-max-w-[400px] tw-flex-col tw-gap-4 tw-rounded-md tw-bg-brandingBlue-400 tw-p-4 tw-text-white tw-shadow-md`}
     >
-      <div className="tw-text-2xl tw-font-semibold tw-text-center">
+      <div className="tw-text-center tw-text-2xl tw-font-semibold">
         Online Banking
       </div>
       <InputWrapper>
@@ -44,6 +45,26 @@ const Login: React.FC<LoginProps> = ({ isVisible }) => {
         <Input type="password" />
       </InputWrapper>
       <Button btnText="Log In" link="#" fullWidth />
+      <div className="tw-flex tw-flex-col tw-gap-1">
+        <LinkText
+          href="https://mutualsavings-dn.financial-net.com/web/Enrollment"
+          label="Enroll In Online Banking"
+          dark
+          underline={false}
+        />
+        <LinkText
+          href=""
+          label="Online Banking Instructions"
+          dark
+          underline={false}
+        />
+        <LinkText
+          href="https://mutualsavings-dn.financial-net.com/web/forgottenpassword"
+          label="Reset Password"
+          dark
+          underline={false}
+        />
+      </div>
     </div>
   );
 };
