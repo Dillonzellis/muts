@@ -53,7 +53,7 @@ const Login: React.FC<LoginProps> = ({ isVisible }) => {
           underline={false}
         />
         <LinkText
-          href=""
+          href="https://dev2.growthbydesign.org/online-banking-instructions/"
           label="Online Banking Instructions"
           dark
           underline={false}
