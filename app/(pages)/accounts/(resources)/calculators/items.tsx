@@ -25,7 +25,7 @@ export const calcs = [
   },
   {
     text: "savings calculator",
-    href: "https://dev2.growthbydesign.org/calculators/calculators/savings/sc.html",
+    href: "https://dev2.growthbydesign.org/calculators/savings/sc.html",
   },
   {
     text: "fixed rate mortgage calculator",
@@ -44,7 +44,7 @@ export const calcs = [
     href: "https://dev2.growthbydesign.org/calculators/compound_interest/cic.html",
   },
   {
-    text: "apr calculator",
-    href: "https://dev2.growthbydesign.org/calculators/APR/aprc.htm",
+    text: "APR calculator",
+    href: "https://dev2.growthbydesign.org/calculators/APR/aprc.html",
   },
-]
+];
