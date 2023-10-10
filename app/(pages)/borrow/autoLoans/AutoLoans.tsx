@@ -4,6 +4,7 @@ import List from "@/app/components/List";
 import ContentHeading from "@/app/components/inner-pages/ContentHeading";
 import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSecondaryHeading";
 import InnerContent from "@/app/components/inner-pages/InnerContent";
+import Disclaimer from "@/app/components/Disclaimer";
 
 const AutoLoans = () => {
   return (
@@ -23,6 +24,10 @@ const AutoLoans = () => {
       <Button
         btnText="apply for a loan"
         link="https://dev2.growthbydesign.org/loan-application/"
+      />
+      <Disclaimer
+        text="*Insurance and Warranty products are not products of the credit union; and are not obligations of or guaranteed by the credit union. Insurance or warranties may be purchased from an agent or an insurance company of the member’s choice; and the credit union makes no representations as to the services of any provider.
+        "
       />
     </InnerContent>
   );

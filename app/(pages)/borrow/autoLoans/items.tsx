@@ -19,11 +19,22 @@ const items: React.ReactNode[] = [
   <React.Fragment key="8">
     <a href=""></a>
     <LinkText
-      label="Loan protection & insurance options from TruStage**"
+      label="Loan protection & insurance options from TruStage*"
       href="/#wow-modal-id-3"
     />
   </React.Fragment>,
-  <React.Fragment key="9">GAP coverage**</React.Fragment>,
+  <React.Fragment key="9">
+    <LinkText
+      label="GAP coverage*"
+      href="https://dev2.growthbydesign.org/borrow/#gap"
+    />
+  </React.Fragment>,
+  <React.Fragment key="10">
+    <LinkText
+      label="Mechanical Breakdown Insurance"
+      href="https://dev2.growthbydesign.org/borrow/#mbi"
+    />
+  </React.Fragment>,
 ];
 
 export default items;
