@@ -6,7 +6,6 @@ import ContentSecondaryHeading from "@/app/components/inner-pages/ContentSeconda
 import InnerContent from "@/app/components/inner-pages/InnerContent";
 import creditItems from "./items";
 import Disclaimer from "@/app/components/Disclaimer";
-import Container from "@/app/layouts/Container";
 
 const CreditCards = () => {
   return (

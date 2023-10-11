@@ -9,7 +9,7 @@ export const memberFee = [
 export const memberData = [
   {
     fee: "Membership fee",
-    amount: "$5.00 per value",
+    amount: "$5.00 per value*",
   },
 ];
 
@@ -48,7 +48,7 @@ export const feeData = [
   },
   {
     fee: "ATM Transactions",
-    amount: "Free*",
+    amount: "Free**",
   },
   {
     fee: "IRA Transfers to Other Institutions",
