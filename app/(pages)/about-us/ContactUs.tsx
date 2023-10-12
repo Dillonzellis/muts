@@ -74,19 +74,8 @@ const ContactUs = () => {
                 <ColItem>
                   <LinkText label="470.747.8163" href="tel:+1470-747-8163" />
                 </ColItem>
-                <ColItem>
-                  <LinkText label="800.771.6695" href="tel:+18007716695" />
-                </ColItem>
-                <ColItem>
-                  <strong>Audio Response: </strong>
-                  <LinkText label="800.835.2815" href="tel:+18008352815" />
-                </ColItem>
               </div>
               <ColHeader>Fax: </ColHeader>
-              <ColItem>
-                <strong>Branch: </strong>
-                <LinkText label="800.771.6695" href="tel:+18007716695" />
-              </ColItem>
               <ColItem>
                 <strong>Loans: </strong>
                 <LinkText label="470.747.8884" href="tel:+1470-747-8884" />
