@@ -13,7 +13,7 @@ const CardDeck = () => {
         icon="http://dev2.growthbydesign.org/wp-content/uploads/car-icon.png"
         title="auto loans"
         description="Shopping for a car? We’ve got great rates on new, used, or refinanced auto loans!"
-        cardLink="https://dev2.growthbydesign.org/loan-application/"
+        cardLink="https://dev2.growthbydesign.org/borrow/#auto-loans"
       />
       <Card
         icon="http://dev2.growthbydesign.org/wp-content/uploads/atm-icon.png"
