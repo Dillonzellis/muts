@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className="footer tw-bg-brandingGrey-700 tw-text-white">
       <Container>
-        <div className="tw-py-12 tw-grid md:tw-grid-cols-3 md:tw-gap-4 tw-gap-12">
+        <div className="tw-grid tw-gap-12 tw-py-12 md:tw-grid-cols-3 md:tw-gap-4">
           <Col>
             <ColHeader title="contact us" />
-            <div className="md:tw-mb-6 tw-mb-4">
+            <div className="tw-mb-4 md:tw-mb-6">
               <div>10 Peachtree Place, NE</div>
               <div>Atlanta, GA 30309</div>
             </div>
@@ -21,8 +21,8 @@ const Footer = () => {
               <div>
                 Phone:{" "}
                 <LinkText
-                  label="(800) 771-6695"
-                  href="tel:+18007716695"
+                  label="470-747-8163"
+                  href="tel:+1470-747-8163"
                   dark
                   underline={false}
                 />
@@ -45,7 +45,7 @@ const Footer = () => {
               <ColLink key={id} href={link.href} linkText={link.linkText} />
             ))}
           </Col>
-          <div className="tw-flex tw-flex-col tw-gap-4 tw-items-center">
+          <div className="tw-flex tw-flex-col tw-items-center tw-gap-4">
             <img
               src="http://dev2.growthbydesign.org/wp-content/uploads/ncua.webp"
               width={200}
